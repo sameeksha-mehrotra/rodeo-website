@@ -17,6 +17,7 @@ h1{
   font-size: 100px;
   color: white;
   text-align: center;
+  font: 'IMFellEnglishSC-Regular';
 }
 .App-topPage-rectangle {
   width: 100%;
@@ -27,6 +28,13 @@ h1{
   left: 0;
   right: 0;
   z-index: 1;
+}
+
+@font-face {
+  font-family: 'IMFellEnglishSC-Regular';
+  src: url('/fonts/IMFellEnglishSC-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
