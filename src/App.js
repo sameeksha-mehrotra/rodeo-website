@@ -14,9 +14,15 @@ function App() {
         <rectangle className="App-topPage-rectangle">
           <img src={logo} className="App-logo" alt="raas rodeo logo" />
 
-          <img src={tiktok} className="App-tiktok" alt="instagram logo" />
+          {/*Seperate div for socials to align to the right*/}
+          <div className="App-socials"> 
 
-          <img src={insta} className="App-insta" alt="instagram logo" />
+            <img src={tiktok} className="App-tiktok" alt="instagram logo" />
+
+            <img src={insta} className="App-insta" alt="instagram logo" />
+
+          </div>
+
         </rectangle>
         
        </div>

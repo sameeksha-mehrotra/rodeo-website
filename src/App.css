@@ -12,18 +12,20 @@
   z-index: 2;  
 }
 
+.App-socials {
+  margin-left: 1000px;
+}
+
 .App-insta {
   height: 7vmin;
   margin-top: 5px;
   padding: 20px;
-  margin-right: 180px;
   z-index:  2;  
 }
 
 .App-tiktok {
   height: 8vmin;
   padding: 20px;
-  margin-left: 1000px;
   z-index:  2;  
 }
 
@@ -40,7 +42,5 @@ h1{
   background-color: black;
   z-index: 1;
   display: flex;
-  justify-content: space-between;
 }
-
 
