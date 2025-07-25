@@ -22,13 +22,11 @@ function App() {
             <img src={insta} className="App-insta" alt="instagram logo" />
 
           </div>
-
         </rectangle>
-        
        </div>
 
-      {/*Home Page*/}
-       <div className="App-homePage">
+      {/*Home Section*/}
+       <div className="App-homeSection">
         <h1>RAAS RODEO XV</h1>
       </div>
 
