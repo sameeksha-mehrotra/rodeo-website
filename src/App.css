@@ -6,26 +6,25 @@
 }
 
 .App-logo {
-  height: 10vmin;
-  margin-top: 15px;
-  margin-left: 25px;
+  height: 8vmin;
+  padding: 20px;
   z-index: 2;  
 }
 
 .App-socials {
-  margin-left: 1000px;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-right: 200px;
 }
 
 .App-insta {
   height: 7vmin;
-  margin-top: 5px;
-  padding: 20px;
+  padding-bottom: 2px;
   z-index:  2;  
 }
 
 .App-tiktok {
   height: 8vmin;
-  padding: 20px;
   z-index:  2;  
 }
 
