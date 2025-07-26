@@ -16,9 +16,12 @@ function Navbar() {
       {open && (
         <div className="navbar-links">
           <a href="#home" onClick={() => setOpen(false)}>Home</a>
-          <a href="#about" onClick={() => setOpen(false)}>About</a>
-          <a href="#events" onClick={() => setOpen(false)}>Events</a>
-          <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
+          <a href="#about" onClick={() => setOpen(false)}>About Us</a>
+          <a href="#directors" onClick={() => setOpen(false)}>Directors</a>
+          <a href="#board" onClick={() => setOpen(false)}>Board</a>
+          <a href="#partnerships" onClick={() => setOpen(false)}>Partnerships</a>
+          <a href="#media" onClick={() => setOpen(false)}>Media Page</a>
+          <a href="#application" onClick={() => setOpen(false)}>Application Info</a>
         </div>
       )}
     </div>

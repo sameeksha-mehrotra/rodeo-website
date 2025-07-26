@@ -34,9 +34,13 @@ function App() {
         </rectangle>
        </div>
 
+       <rectangle className="App-extraRectangle">
+       </rectangle>
+
       {/*Home Section*/}
-       <div className="App-homeSection">
-        <h1>RAAS RODEO XV</h1>
+       <div className="App-homeSection" id='home'>
+        <h1>RAAS RODEO</h1>
+        <h2>X V</h2>
       </div>
 
     </div>
