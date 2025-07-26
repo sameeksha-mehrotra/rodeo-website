@@ -1,6 +1,7 @@
 import logo from './RaasRodeo11V3.png';
 import insta from './instagram icon logo.png';
 import tiktok from './tiktok icon logo.png';
+import Navbar from './Navbar';
 
 import './App.css';
 
@@ -26,6 +27,10 @@ function App() {
             </a>
 
           </div>
+
+          {/*hamburger menu bar*/}
+          <Navbar />
+
         </rectangle>
        </div>
 

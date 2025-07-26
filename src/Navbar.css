@@ -1,0 +1,35 @@
+/* Example styles for collapsible menu */
+.navbar {
+  position: relative;
+  z-index: 10;
+}
+
+.navbar-lineIcon img {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-links {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 150px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.navbar-links a {
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  width: 100%;
+  text-align: right;
+}
+
+.navbar-links a:hover {
+  background: #444;
+}
