@@ -7,6 +7,7 @@
 .navbar-lineIcon img {
   width: 100px;
   height: 100px;
+  animation: float 3s ease-in-out infinite;
 }
 
 .navbar-links {
@@ -33,4 +34,9 @@
 .navbar-links a:hover {
   background: #13344e;
   width: 71%;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
 }

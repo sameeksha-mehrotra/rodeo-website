@@ -39,9 +39,12 @@ function App() {
 
       {/*Home Section*/}
        <div className="App-homeSection" id='home'>
-        <h1>RAAS RODEO</h1>
-        <h2>X V</h2>
+        <h1>RAAS RODEO
+           <h2>X V</h2>
+        </h1>
       </div>
+
+      
 
     </div>
   );
