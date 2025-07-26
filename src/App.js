@@ -17,9 +17,13 @@ function App() {
           {/*Seperate div for socials to align to the right*/}
           <div className="App-socials"> 
 
-            <img src={tiktok} className="App-tiktok" alt="instagram logo" />
+            <a href="https://www.tiktok.com/@raasrodeo?is_from_webapp=1&sender_device=pc" target = "_blank" rel="noreferrer">
+              <img className="App-tiktok" src={tiktok} alt="instagram logo" />
+            </a>
 
-            <img src={insta} className="App-insta" alt="instagram logo" />
+            <a href="https://www.instagram.com/raasrodeo/?hl=en" target = "_blank" rel="noreferrer">
+              <img src={insta} className="App-insta" alt="instagram logo" />
+            </a>
 
           </div>
         </rectangle>
