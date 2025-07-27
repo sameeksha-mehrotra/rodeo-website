@@ -6,6 +6,14 @@
 }
 
 /* CSS for Menu bar at top */
+
+.App-topPage{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
 .App-extraRectangle {
   width: 100%;
   height: 10px;
@@ -62,5 +70,47 @@ h2{
   text-align: center;
   color: white;
   font-family: 'IMFellEnglishSC-Regular', serif;
+}
+
+.aboutTitle, .directorsTitle, .boardTitle, .partnerTitle{
+  position: relative;
+  padding-top: 50px;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  font-family: 'IMFellEnglishSC-Regular', serif;
+}
+
+.aboutSection-rectangle, 
+.boardSection-rectangle, .partnerSection-rectangle{
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px white;
+  color: black;
+  text-align: center;
+  width: 60%;
+  background-color: #abd0d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.directorsSection-rectangle{
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px white;
+  color: black;
+  text-align: center;
+  width: 60%;
+  background-color: #abd0d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
