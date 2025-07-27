@@ -9,7 +9,14 @@ import entireBoard from './entireBoard.png';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import headL from './headLiasons pic.png';
-
+import jo from './j&o pic.png';
+import social from './social Pic.png';
+import finance from './finance Pic.png';
+import show from './show pic.png';
+import logistics from './logistics Pic.png';
+import hospitality from './hospitality Pic.png';
+import pr from './pr Pic.png';
+import creative from './creative Pic.png';
 
 import './App.css';
 
@@ -83,14 +90,53 @@ function App() {
       <div className="App-boardSection" id='board'>
         <h1 className="boardTitle">Board</h1>
 
-        <Carousel className="boardCarousel" showThumbs={false} infiniteLoop autoPlay>
+        <Carousel className="boardCarousel" showThumbs={false} infiniteLoop autoPlay interval={6000}>
           <div>
             <img src={headL} alt="Head Liasons" />
-            <p className="legend">cjebcfjsb</p>
+            <p className="legend">Savitha Shanmugasundaram, Miloni Patel, Akash Gupta</p>
           </div>
-          {/* Add more <div> slides as needed */}
+          
+           <div>
+            <img src={jo} alt="Judging and Outreach" />
+            <p className="legend">Vivek Patel, Simali Shah</p>
+          </div>
+
+          <div>
+            <img src={social} alt="Social" />
+            <p className="legend">Uma Kamath, Roshan Ahmed</p>
+          </div>
+
+           <div>
+            <img src={finance} alt="Finance" />
+            <p className="legend">Netra Bhargava, Akhil Morusupalli, Meena Ramaswamy</p>
+          </div>
+
+          <div>
+            <img src={show} alt="Show" />
+            <p className="legend">Eshan Mehdiratta, Anika Koppula</p>
+          </div>
+
+          <div>
+            <img src={logistics} alt="Logistics" />
+            <p className="legend">Diya Patel, Aditya Yadav, Ashley Kurian</p>
+          </div>
+
+          <div>
+            <img src={hospitality} alt="Hospitality" />
+            <p className="legend">Amolika Kondapalli, Anirudh Radhakrishnan</p>
+          </div>
+
+          <div>
+            <img src={pr} alt="Public Relations" />
+            <p className="legend">Nishita Appana, Tanisha Khurana</p>
+          </div>
+
+          <div>
+            <img src={creative} alt="Creative" />
+            <p className="legend">Akshitha Venkataraman, Srimukta Pisupati, Sameeksha Mehrotra</p>
+          </div>
         </Carousel>
-        
+
       </div>
 
       {/*Partnerships Section*/}
