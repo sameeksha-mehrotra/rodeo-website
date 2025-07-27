@@ -134,18 +134,20 @@ h2{
 
 /*CSS for about section word blurb*/
 
-.aboutSection-rectangle, 
-.boardSection-rectangle, .partnerSection-rectangle{
+.aboutSection-rectangle{
+  font-size: 20px;
   padding: 20px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 50px;
   border-radius: 10px;
-  box-shadow: 0px 0px 50px white;
-  color: black;
+  /*box-shadow: 0px 0px 50px white;*/
+  /* color: black; */
+  color: white;
   text-align: center;
   width: 60%;
-  background-color: #abd0d9;
+  /*background-color: #abd0d9;*/
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -189,3 +191,27 @@ h2{
   text-align: center;
 }
 
+
+/*CSS for partnerships/sponserships*/
+.partnerSection {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.partnerPlace{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  animation: float2 2s ease-in-out infinite;
+}
+
+.partnerPlace:hover {
+  box-shadow: 0px 0px 50px 10px white;
+  transition: box-shadow 0.3s;
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+}

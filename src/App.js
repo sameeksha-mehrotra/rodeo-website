@@ -18,6 +18,9 @@ import hospitality from './hospitality Pic.png';
 import pr from './pr Pic.png';
 import creative from './creative Pic.png';
 
+import partnerPlace from './partner placeholder.png';
+import partnerPlace2 from './partner placeholder2.png';
+
 import './App.css';
 
 function App() {
@@ -28,7 +31,9 @@ function App() {
        <div className="App-topPage">
         
         <rectangle className="App-topPage-rectangle">
-          <img src={logo} className="App-logo" alt="raas rodeo logo" />
+          <a href="#home">
+            <img src={logo} className="App-logo" alt="raas rodeo logo" />
+          </a>
 
           {/*Seperate div for socials to align to the right*/}
           <div className="App-socials"> 
@@ -72,7 +77,7 @@ function App() {
           <p>
             Raas Rodeo is a non-profit organization that aims to promote and celebrate the rich <b>cultural heritage</b> of Raas, a traditional Indian dance form. Our mission is to provide a platform for dancers and enthusiasts to come together, learn, and showcase their skills while fostering <b>a sense of community and cultural appreciation</b>.
           </p>
-          <p>            We organize <b>workshops, performances, and events</b> that not only highlight the beauty of Raas but also educate people about its history and significance. Through our initiatives, we strive to create a vibrant community that<b>embraces diversity and encourages artistic expression</b>.
+          <p>            We organize <b>workshops, performances, and events</b> that not only highlight the beauty of Raas but also educate people about its history and significance. Through our initiatives, we strive to create a vibrant community that <b>embraces diversity and encourages artistic expression</b>.
           </p>
           <p>            <b>Join us</b> in our journey to keep the spirit of Raas alive and thriving, as we bring together dancers, artists, and cultural enthusiasts from all walks of life. Whether you are a seasoned performer or someone new to the dance form, <b>Raas Rodeo welcomes you</b> to be a part of our community and celebrate the joy of Raas together.
           </p>
@@ -142,15 +147,17 @@ function App() {
       {/*Partnerships Section*/}
       <div className="App-partnerSection" id='partnerships'>
         <h1 class="partnerTitle">Partnerships</h1>
-        <rectangle className="partnerSection-rectangle">
-          <p>
-            Raas Rodeo is a non-profit organization that aims to promote and celebrate the rich <b>cultural heritage</b> of Raas, a traditional Indian dance form. Our mission is to provide a platform for dancers and enthusiasts to come together, learn, and showcase their skills while fostering <b>a sense of community and cultural appreciation</b>.
-          </p>
-          <p>            We organize <b>workshops, performances, and events</b> that not only highlight the beauty of Raas but also educate people about its history and significance. Through our initiatives, we strive to create a vibrant community that<b>embraces diversity and encourages artistic expression</b>.
-          </p>
-          <p>            <b>Join us</b> in our journey to keep the spirit of Raas alive and thriving, as we bring together dancers, artists, and cultural enthusiasts from all walks of life. Whether you are a seasoned performer or someone new to the dance form, <b>Raas Rodeo welcomes you</b> to be a part of our community and celebrate the joy of Raas together.
-          </p>
-        </rectangle>  
+        <div className="partnerSection">
+
+          <a href="https://www.instagram.com/reel/DL8ZL0_ulE5/?utm_source=ig_web_copy_link&igsh=dzByNWNkc2M4aWRu" target="_blank" rel="noreferrer">
+            <img className="partnerPlace" src={partnerPlace} alt="partner placeholder" />
+          </a>
+
+          <a href="https://www.instagram.com/reel/DL8ZL0_ulE5/?utm_source=ig_web_copy_link&igsh=dzByNWNkc2M4aWRu" target="_blank" rel="noreferrer">
+            <img className="partnerPlace" src={partnerPlace2} alt="partner placeholder 2" />
+          </a>
+
+        </div>  
       </div>
 
     </div>
