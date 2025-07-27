@@ -2,6 +2,9 @@ import logo from './RaasRodeo11V3.png';
 import insta from './instagram icon logo.png';
 import tiktok from './tiktok icon logo.png';
 import Navbar from './Navbar';
+import tisha from './tishaPic.png';
+import pavi from './paviPic.png';
+import entireBoard from './entireBoard.png';
 
 import './App.css';
 
@@ -43,6 +46,11 @@ function App() {
         <h1>RAAS RODEO
            <h2>X V</h2>
         </h1>
+
+      <div className="gotham-frame">
+        <img className="App-entireBoard" src={entireBoard} alt="entire board" />
+      </div>
+      
       </div>
 
       {/*About Section*/}
@@ -62,9 +70,8 @@ function App() {
       {/*Directors Section*/}
       <div className="App-directorsSection" id='directors'>
         <h1 class="directorsTitle">Directors</h1>
-        <rectangle className="directorsSection-rectangle">
-         
-        </rectangle>  
+        <img className="App-tishaImage" src={tisha} alt="tisha" />
+        <img className="App-paviImage" src={pavi} alt="pavitra" />
       </div>
 
       {/*Board Section*/}
