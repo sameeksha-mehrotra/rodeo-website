@@ -167,4 +167,17 @@ h2{
 }
 
 /*CSS for board images section of page*/
+.boardCarousel {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #333;
+}
+
+/* Example: Style carousel images */
+.boardCarousel .carousel .slide img {
+  border-radius: 12px;
+  object-fit: cover;
+  height: 350px;
+}
 
