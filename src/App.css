@@ -235,6 +235,7 @@ h2{
 .partnerSection {
   display: flex;
   justify-content: space-evenly;
+  gap: 10px;
   padding: 50px;
 }
 
