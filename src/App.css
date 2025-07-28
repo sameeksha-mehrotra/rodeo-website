@@ -138,8 +138,8 @@ h2{
   font-size: 20px;
   padding: 20px;
   margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   border-radius: 10px;
   /*box-shadow: 0px 0px 50px white;*/
   /* color: black; */
@@ -196,7 +196,7 @@ h2{
 .partnerSection {
   display: flex;
   justify-content: space-evenly;
-  padding: 30px;
+  padding: 50px;
 }
 
 .partnerPlace{
