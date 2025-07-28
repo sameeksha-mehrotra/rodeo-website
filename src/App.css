@@ -36,6 +36,9 @@
   padding-left: 50px;
   z-index: 2;  
 }
+.App-logo a.active {
+  font-weight: bold;
+}
 
 .App-socials {
   margin-left: auto;

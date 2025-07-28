@@ -21,9 +21,15 @@ import creative from './creative Pic.png';
 import partnerPlace from './partner placeholder.png';
 import partnerPlace2 from './partner placeholder2.png';
 
+
 import './App.css';
 
+import React, { useState } from 'react';
+
 function App() {
+
+  const [activeTab, setActiveTab] = useState('home');
+
   return (
     <div className="App" id='home'>
 
@@ -31,7 +37,7 @@ function App() {
        <div className="App-topPage">
         
         <rectangle className="App-topPage-rectangle">
-          <a href="#home">
+          <a href="#home" onClick={() => setActiveTab('home')}>
             <img src={logo} className="App-logo" alt="raas rodeo logo" />
           </a>
 
@@ -49,7 +55,7 @@ function App() {
           </div>
 
           {/*hamburger menu bar*/}
-          <Navbar />
+          <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
 
         </rectangle>
 
