@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './Navbar.css';
 import bats from './bat menu icon.png';
 
 function Navbar({ activeTab, setActiveTab }) {
   const [open, setOpen] = useState(false);
+  const navbarRef = useRef(null);
 
   const handleToggle = () => setOpen(!open);
 
@@ -12,8 +13,20 @@ function Navbar({ activeTab, setActiveTab }) {
     setOpen(false);
   };
 
+  useEffect(() => {
+    function handleOutsideClick(event) {
+      if (open && navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleOutsideClick);
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick);
+    };
+  }, [open]);
+
   return (
-    <div className="navbar">
+    <div className="navbar" ref={navbarRef}>
       <div className="navbar-lineIcon" onClick={handleToggle} style={{ cursor: 'pointer' }}>
         <img src={bats} alt="bats icon" />
       </div>

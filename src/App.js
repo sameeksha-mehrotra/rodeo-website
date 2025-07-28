@@ -93,15 +93,21 @@ function App() {
       {/*Directors Section*/}
       <div className="App-directorsSection" id='directors'>
         <h1 class="directorsTitle">Directors</h1>
-        <img className="App-tishaImage" src={tisha} alt="tisha" />
-        <img className="App-paviImage" src={pavi} alt="pavitra" />
+        <div className="directorImagesSection">
+          <div className ="gotham-frameDirectors">
+          <img className="App-tishaImage" src={tisha} alt="tisha" />
+        </div>
+        <div className ="gotham-frameDirectors">
+          <img className="App-paviImage" src={pavi} alt="pavitra" />
+        </div>
+        </div>
       </div>
 
       {/*Board Section*/}
       <div className="App-boardSection" id='board'>
         <h1 className="boardTitle">Board</h1>
         <div className="gotham-frameBoard">
-          
+
           <Carousel className="boardCarousel" showThumbs={false} infiniteLoop autoPlay interval={6000}>
           <div>
             <img src={headL} alt="Head Liasons" />

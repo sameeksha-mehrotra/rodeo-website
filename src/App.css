@@ -150,18 +150,41 @@ h2{
 
 /*CSS for directors image section of page*/
 
-.App-tishaImage, .App-paviImage {
-  width: 35%;
-  height: 35%;
-  margin: 20px;
-  margin-left: 140px;
+.directorImagesSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; /* space between images */
+  margin-top: 40px;
+
 }
 
-.App-tishaImage:hover,
-.App-paviImage:hover {
+    /*CSS for frame of directors*/  
+.gotham-frameDirectors {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: black;
+  box-shadow: 0 0 30px black;
+  max-width: 35%;
+  border: 2px solid #444; /* subtle border */
+}
+
+.gotham-frameDirectors img {
+  border-radius: 12px;
+  width: 100%;
+  display: block;
+}
+
+.gotham-frameDirectors:hover {
   box-shadow: 0px 0px 50px 10px white;
   transition: box-shadow 0.3s;
 }
+
 
 /*CSS for board images section of page*/
 
