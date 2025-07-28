@@ -24,7 +24,7 @@
 
 .App-topPage-rectangle {
   width: 100%;
-  height: 100px;
+  height: 90px;
   background-color: black;
   z-index: 1;
   display: flex;
@@ -32,7 +32,7 @@
 
 .App-logo {
   height: 10vmin;
-  padding: 20px;
+  padding: 15px;
   padding-left: 50px;
   z-index: 2;  
 }
@@ -126,28 +126,20 @@ h2{
 .aboutTitle, .directorsTitle, .boardTitle, .partnerTitle{
   position: relative;
   padding-top: 50px;
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
   color: white;
   font-family: 'IMFellEnglishSC-Regular', serif;
 }
 
 /*CSS for about section word blurb*/
-
 .aboutSection-rectangle{
   font-size: 20px;
   padding: 20px;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  /*box-shadow: 0px 0px 50px white;*/
-  /* color: black; */
   color: white;
   text-align: center;
   width: 60%;
-  /*background-color: #abd0d9;*/
-  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,10 +148,10 @@ h2{
 /*CSS for directors image section of page*/
 
 .App-tishaImage, .App-paviImage {
-  width: 40%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
   margin: 20px;
-  margin-left: 90px;
+  margin-left: 140px;
 }
 
 .App-tishaImage:hover,

@@ -11,7 +11,7 @@
 }
 
 .navbar-links {
-  top: 100px;
+  top: 90px;
   position: fixed;
   right: 0;
   background: black;
@@ -34,6 +34,10 @@
 .navbar-links a:hover {
   background: #13344e;
   width: 71%;
+}
+
+.navbar-links a.active {
+  font-weight: bold;
 }
 
 @keyframes float {
