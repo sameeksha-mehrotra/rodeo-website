@@ -100,8 +100,9 @@ function App() {
       {/*Board Section*/}
       <div className="App-boardSection" id='board'>
         <h1 className="boardTitle">Board</h1>
-
-        <Carousel className="boardCarousel" showThumbs={false} infiniteLoop autoPlay interval={6000}>
+        <div className="gotham-frameBoard">
+          
+          <Carousel className="boardCarousel" showThumbs={false} infiniteLoop autoPlay interval={6000}>
           <div>
             <img src={headL} alt="Head Liasons" />
             <p className="legend">Savitha Shanmugasundaram, Miloni Patel, Akash Gupta</p>
@@ -148,6 +149,8 @@ function App() {
           </div>
         </Carousel>
 
+        </div>
+        
       </div>
 
       {/*Partnerships Section*/}
