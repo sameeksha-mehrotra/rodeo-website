@@ -21,7 +21,6 @@ import creative from './creative Pic.png';
 import partnerPlace from './partner placeholder.png';
 import partnerPlace2 from './partner placeholder2.png';
 
-
 import './App.css';
 
 import React, { useState } from 'react';
@@ -176,6 +175,8 @@ function App() {
       </div>
 
     </div>
+
+    
   );
 }
 
