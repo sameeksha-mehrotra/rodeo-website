@@ -21,6 +21,8 @@ import creative from './creative Pic.png';
 import partnerPlace from './partner placeholder.png';
 import partnerPlace2 from './partner placeholder2.png';
 
+import raasTitle from './raasTitleFont.png';
+
 import './App.css';
 
 import React, { useState } from 'react';
@@ -65,10 +67,13 @@ function App() {
 
       {/*Home Section*/}
        <div className="App-homeSection">
-        <h1>RAAS RODEO
-           <h2>X V</h2>
-        </h1>
 
+        <img className="App-raasTitle" src={raasTitle} alt="raas title" />
+        {/* <h1>RAAS RODEO
+          <h2>X V</h2> 
+        </h1> */}
+        <h2>X V</h2> 
+        
         <div className="gotham-frame">
           <img className="App-entireBoard" src={entireBoard} alt="entire board" />
         </div>
