@@ -180,8 +180,6 @@ function App() {
       </div>
 
     </div>
-
-    
   );
 }
 
