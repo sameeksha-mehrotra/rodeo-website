@@ -260,3 +260,13 @@ h2{
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-15px); }
 }
+
+/*CSS for Media Page*/
+.mediaTitle {
+  position: relative;
+  padding-top: 10px;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  font-family: 'IMFellEnglishSC-Regular', serif;
+}

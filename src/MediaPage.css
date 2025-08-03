@@ -1,0 +1,6 @@
+.MediaPage {
+  background-color: #13344e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
