@@ -279,9 +279,10 @@ h2{
   padding: 20px;
   padding-bottom: 25px;
   flex-direction: column;
+  float: left;
 }
 
-.teamFrame, .teamFrameFive{
+.teamFrame, .teamFrameFive, .teamFramePlacement, .teamFramePlacementFirst{
   position: relative;
   display: inline-block;
   width: 300px;
@@ -297,6 +298,22 @@ h2{
 }
 
 .teamFrameFive img{
+  display: block;
+  width: 80%;
+  height: 80%;
+  padding: 30px;
+  border-radius: 150px;
+}
+
+.teamFramePlacementFirst img{
+  display: block;
+  width: 80%;
+  height: 80%;
+  padding: 30px;
+  border-radius: 150px;
+}
+
+.teamFramePlacement img{
   display: block;
   width: 80%;
   height: 80%;
@@ -334,4 +351,36 @@ h2{
 }
 .teamFrameFive:hover .overlay {
   opacity: 0;
+}
+
+.teamFramePlacement:hover .overlay {
+  opacity: 0;
+}
+
+.teamFramePlacementFirst:hover .overlay {
+  opacity: 0;
+}
+
+.teamsCenter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-right: 350px;
+  padding-bottom: 25px;
+  padding-top: 190px;
+  flex-direction: column;
+  float: center;
+}
+
+.teamsRight{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  padding-bottom: 25px;
+  flex-direction: column;
+  float: right;
 }
