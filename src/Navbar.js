@@ -35,13 +35,15 @@ function Navbar({ activeTab, setActiveTab }) {
           <a
             href="#home"
             className={activeTab === 'home' ? 'active' : ''}
+            scroll-behavior="smooth"
             onClick={() => handleClick('home')}
           >Home</a>
           <a
             href="#about"
             className={activeTab === 'about' ? 'active' : ''}
+            scroll-behavior="smooth"
             onClick={() => handleClick('about')}
-          >About Us</a>
+          >About</a>
           <a
             href="#directors"
             className={activeTab === 'directors' ? 'active' : ''}
