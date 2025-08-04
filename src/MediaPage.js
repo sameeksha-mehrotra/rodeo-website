@@ -28,7 +28,7 @@ function MediaPage() {
             </div>
           </div>
 
-          <div className="teamFrame">
+          <div className="teamFrameFive">
             <img className="teamImage" src={uwRaas} alt="Team 5"/>
             <div className="overlay">
               <span className="overlayText">Team 5</span>
