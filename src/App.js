@@ -25,6 +25,7 @@ import raasTitle from './raasTitleFont.png';
 
 import './App.css';
 import MediaPage from './MediaPage';
+import ApplicationsPage from './ApplicationsPage';
 
 import React, { useState } from 'react';
 
@@ -56,6 +57,8 @@ function App() {
     {/* Only show MediaPage if activeTab is 'media' */}
     {activeTab === 'media' ? (
       <MediaPage />
+    ) : activeTab === 'application' ? (
+      <ApplicationsPage />
     ) : (
       <>
         {/*Home Section*/}
