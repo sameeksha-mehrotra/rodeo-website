@@ -336,6 +336,7 @@ h2{
   align-items: center;
   justify-content: center;
   transition: opacity 0.3s;
+  pointer-events: none;
 }
 
 .overlayText {

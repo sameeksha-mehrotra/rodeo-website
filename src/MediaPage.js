@@ -20,21 +20,23 @@ function MediaPage() {
         <div className="teamsLeft">
 
           <div className="teamFrame">
-            <img className="teamImage" src={raasAM} alt="Team 3"/>
+            <a href="https://www.youtube.com/watch?v=47rsMTNm95U&t=40s" target="_blank" rel="noreferrer"> 
+              <img className="teamImage" src={raasAM} alt="Team 3"/>
+            </a>
             <div className="overlay">
               <span className="overlayText">Team 3</span>
             </div>
           </div>
 
           <div className="teamFrame">
-            <img className="teamImage" src={washRaas} alt="Team 4"/>
+            <img className="teamImage" src={washRaas} alt="Team 4" onClick={() => window.open('https://youtu.be/ef5TEpz37Dg?si=UzKE8fWIxaJ9cdzS', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Team 4</span>
             </div>
           </div>
 
           <div className="teamFrameFive">
-            <img className="teamImage" src={uwRaas} alt="Team 5"/>
+            <img className="teamImage" src={uwRaas} alt="Team 5" onClick={() => window.open('https://youtu.be/9h78dRldiAQ?si=itSCPGE23od9lUTY', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Team 5</span>
             </div>
@@ -45,21 +47,21 @@ function MediaPage() {
         <div className="teamsRight">
 
           <div className="teamFrameFive">
-            <img className="teamImage" src={ucbRaas} alt="Team 6"/>
+            <img className="teamImage" src={ucbRaas} alt="Team 6" onClick={() => window.open('https://youtu.be/uVIZPXv-hsI?si=i6_PyxDnKoTB9vEW', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Team 6</span>
             </div>
           </div>
 
           <div className="teamFrame">
-            <img className="teamImage" src={steelRaas} alt="Team 7"/>
+            <img className="teamImage" src={steelRaas} alt="Team 7" onClick={() => window.open('https://youtu.be/p3WNR5G1nW0?si=vf1iTF25-7zKfiVL', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Team 7</span>
             </div>
           </div>
 
           <div className="teamFrameFive">
-            <img className="teamImage" src={columbiaRaas} alt="Team 8"/>
+            <img className="teamImage" src={columbiaRaas} alt="Team 8" onClick={() => window.open('https://youtu.be/XEpvkG6oLJ0?si=JYbemU5Gy3u3FT2D', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Team 8</span>
             </div>
@@ -70,14 +72,14 @@ function MediaPage() {
         <div className="teamsCenter">
 
           <div className="teamFramePlacementFirst">
-            <img className="teamImage" src={gtRaas} alt="First Place"/>
+            <img className="teamImage" src={gtRaas} alt="First Place" onClick={() => window.open('https://youtu.be/BVLQoistZlQ?si=zdj55TL_Z-_bbHIH', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">First Place</span>
             </div>
           </div>
 
           <div className="teamFramePlacement">
-            <img className="teamImage" src={taraas} alt="Second Place"/>
+            <img className="teamImage" src={taraas} alt="Second Place" onClick={() => window.open('https://youtu.be/aQQ4JB4apHk?si=583LOQBUinVUeoc9', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Second Place</span>
             </div>
