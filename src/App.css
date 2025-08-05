@@ -262,7 +262,7 @@ h2{
 }
 
 /*CSS for Media Page*/
-.mediaTitle {
+.mediaTitle, .appTitle {
   position: relative;
   padding-top: 10px;
   font-size: 80px;
@@ -278,6 +278,7 @@ h2{
   gap: 20px;
   padding: 20px;
   padding-bottom: 25px;
+  margin-left: 100px;
   flex-direction: column;
   float: left;
 }
@@ -382,6 +383,7 @@ h2{
   gap: 20px;
   padding: 20px;
   padding-bottom: 25px;
+  margin-right: 100px;
   flex-direction: column;
   float: right;
 }
