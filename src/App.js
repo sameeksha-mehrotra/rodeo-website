@@ -64,11 +64,14 @@ function App() {
         {/*Home Section*/}
         <div className="App-homeSection">
           <img className="App-raasTitle" src={raasTitle} alt="raas title" />
-          <h2>X V</h2>
+
           <div className="gotham-frame">
             <img className="App-entireBoard" src={entireBoard} alt="entire board" />
           </div>
+
         </div>
+
+        {/*Divider between Sections*/}
 
         {/*About Section*/}
         <div className="App-aboutSection" id='about'>
