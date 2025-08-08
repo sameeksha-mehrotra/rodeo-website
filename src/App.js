@@ -1,6 +1,8 @@
 import logo from './RaasRodeo11V3.png';
 import insta from './instagram icon logo.png';
 import tiktok from './tiktok icon logo.png';
+import youtube from './youtubeLogo.png';
+import lineDivider from './lineDivider.png';
 import Navbar from './Navbar';
 import tisha from './tishaPic.png';
 import pavi from './paviPic.png';
@@ -42,12 +44,19 @@ function App() {
           <img src={logo} className="App-logo" alt="raas rodeo logo" />
         </a>
         <div className="App-socials">
+          <a href="https://youtube.com/@raasrodeo?si=Qh7CynLfI_feggNU" target="_blank" rel="noreferrer">
+            <img className="App-youtube" src={youtube} alt="youtube logo" />
+          </a>
           <a href="https://www.tiktok.com/@raasrodeo?is_from_webapp=1&sender_device=pc" target="_blank" rel="noreferrer">
             <img className="App-tiktok" src={tiktok} alt="instagram logo" />
           </a>
           <a href="https://www.instagram.com/raasrodeo/?hl=en" target="_blank" rel="noreferrer">
             <img src={insta} className="App-insta" alt="instagram logo" />
           </a>
+        </div>
+
+        <div>
+          <img className="lineDivider" src={lineDivider} alt = "line logo"></img>
         </div>
         <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
       </rectangle>

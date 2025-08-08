@@ -8,7 +8,6 @@
   width: 100px;
   height: 100px;
   margin-top: -5px;
-  animation: float 2s ease-in-out infinite;
 }
 
 .navbar-links {
@@ -41,7 +40,4 @@
   font-weight: bold;
 }
 
-@keyframes float {
-  0%, 100% { transform: translateX(0px); }
-  50% { transform: translateX(-10px); }
-}
+

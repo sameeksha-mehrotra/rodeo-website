@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './Navbar.css';
-import bats from './bat menu icon.png';
+import hamMenu from './hamburgerMenu.png';
 
 function Navbar({ activeTab, setActiveTab }) {
   const [open, setOpen] = useState(false);
@@ -28,7 +28,7 @@ function Navbar({ activeTab, setActiveTab }) {
   return (
     <div className="navbar" ref={navbarRef}>
       <div className="navbar-lineIcon" onClick={handleToggle} style={{ cursor: 'pointer' }}>
-        <img src={bats} alt="bats icon" />
+        <img src={hamMenu} alt="hamburger icon" />
       </div>
       {open && (
         <div className="navbar-links">
