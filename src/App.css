@@ -276,6 +276,14 @@ h2{
 }
 
 /*CSS for Media Page*/
+
+.App-mediaSection {
+  background-color: #13344e;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
 .mediaTitle, .appTitle {
   position: relative;
   padding-top: 10px;
@@ -286,10 +294,11 @@ h2{
 }
 
 .teamFrame, .teamFrameFive, .teamFramePlacement, .teamFramePlacementFirst{
-  position: relative;
+  position: relative; 
   display: inline-block;
   width: 300px;
   height: 300px;
+  overflow: visible;
 }
 
 .teamFrame img{
@@ -325,19 +334,21 @@ h2{
 
 .overlay {
   position: absolute;
-  inset: 0;
+  top: -5px;
+  left: 0;
   width: 300px;
-  height: 400px;
+  height: 400px; 
   background-color: #abd0d9;
+  opacity: 0.8;
   display: flex;
   flex-direction: column;
-  border-radius: 0px;
-  opacity: 0.8;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.3s;
   pointer-events: none;
+  border-radius: 12px;
+  transition: opacity 0.3s;
 }
+
 
 .overlayText {
   color: black;
@@ -351,6 +362,24 @@ h2{
 .overlayTextName {
   color: black;
   padding-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'IMFellEnglishSC-Regular', serif;
+}
+
+.overlayTextSteelNum {
+  color: black;
+  padding-top: 260px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'IMFellEnglishSC-Regular', serif;
+}
+
+.overlayTextNameSteel {
+  color: black;
   font-size: 20px;
   font-weight: bold;
   text-align: center;

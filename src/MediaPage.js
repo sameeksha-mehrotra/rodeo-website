@@ -81,9 +81,9 @@ function MediaPage() {
           <div className="teamFrame">
             <img className="teamImage" src={steelRaas} alt="Team 7" onClick={() => window.open('https://youtu.be/p3WNR5G1nW0?si=vf1iTF25-7zKfiVL', '_blank')}/>
             <div className="overlay">
-              <span className="overlayText">Team 7</span>
-              <span className="overlayTextName">University of Pittsburgh</span>
-               <span className="overlayTextName">Steel City Raas</span>
+              <span className="overlayTextSteelNum">Team 7</span>
+              <span className="overlayTextNameSteel">University of Pittsburgh</span>
+               <span className="overlayTextNameSteel">Steel City Raas</span>
             </div>
           </div>
 
