@@ -285,22 +285,11 @@ h2{
   font-family: 'IMFellEnglishSC-Regular', serif;
 }
 
-.teamsLeft {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-  padding-bottom: 25px;
-  flex-direction: horizontal;
-}
-
 .teamFrame, .teamFrameFive, .teamFramePlacement, .teamFramePlacementFirst{
   position: relative;
   display: inline-block;
   width: 300px;
   height: 300px;
-  overflow: hidden;
 }
 
 .teamFrame img{
@@ -336,15 +325,13 @@ h2{
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
   inset: 0;
   width: 300px;
-  height: auto;
+  height: 400px;
   background-color: #abd0d9;
   display: flex;
   flex-direction: column;
-  border-radius: 12px;
+  border-radius: 0px;
   opacity: 0.8;
   align-items: center;
   justify-content: center;
@@ -354,7 +341,17 @@ h2{
 
 .overlayText {
   color: black;
-  font-size: 2rem;
+  padding-top: 260px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'IMFellEnglishSC-Regular', serif;
+}
+
+.overlayTextName {
+  color: black;
+  padding-top: 15px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   font-family: 'IMFellEnglishSC-Regular', serif;
@@ -390,7 +387,19 @@ h2{
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
+  margin-top: 80px;
   padding: 20px;
   padding-bottom: 50px;
+  flex-direction: horizontal;
+}
+
+.teamsLeft {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  margin-top: 80px;
+  padding: 20px;
+  padding-bottom: 25px;
   flex-direction: horizontal;
 }
