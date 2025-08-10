@@ -83,10 +83,10 @@ function App() {
         </div>
 
         {/*Divider between Sections*/}
-        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" />
+        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" id='about'/>
 
         {/*About Section*/}
-        <div className="App-aboutSection" id='about'>
+        <div className="App-aboutSection">
           <h1 className="aboutTitle">About Us</h1>
           <rectangle className="aboutSection-rectangle">
             <p>
@@ -102,10 +102,10 @@ function App() {
         </div>
 
         {/*Divider between Sections*/}
-        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" />
+        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" id='directors'/>
 
         {/*Directors Section*/}
-        <div className="App-directorsSection" id='directors'>
+        <div className="App-directorsSection">
           <h1 className="directorsTitle">Directors</h1>
           <div className="directorImagesSection">
             <div className="gotham-frameDirectors">
@@ -118,10 +118,10 @@ function App() {
         </div>
 
         {/*Divider between Sections*/}
-        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" />
+        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" id='board'/>
 
         {/*Board Section*/}
-        <div className="App-boardSection" id='board'>
+        <div className="App-boardSection">
           <h1 className="boardTitle">Board</h1>
           <div className="gotham-frameBoard">
             <Carousel className="boardCarousel" showThumbs={false} infiniteLoop autoPlay interval={6000}>
@@ -166,10 +166,10 @@ function App() {
         </div>
 
         {/*Divider between Sections*/}
-        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" />
+        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" id='partnerships'/>
 
         {/*Partnerships Section*/}
-        <div className="App-partnerSection" id='partnerships'>
+        <div className="App-partnerSection">
           <h1 className="partnerTitle">Partnerships</h1>
           <div className="partnerSection">
             <a href="https://www.instagram.com/reel/DL8ZL0_ulE5/?utm_source=ig_web_copy_link&igsh=dzByNWNkc2M4aWRu" target="_blank" rel="noreferrer">

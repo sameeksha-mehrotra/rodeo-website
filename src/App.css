@@ -282,6 +282,7 @@ h2{
   width: 100%;
   min-height: 100vh;
   padding-bottom: 80px;
+  scroll-margin-top: 100px; 
 }
 
 .mediaTitle, .appTitle {

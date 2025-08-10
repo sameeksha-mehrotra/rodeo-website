@@ -12,11 +12,11 @@ import taraas from './tarassLogo.png';
 
 function MediaPage() {
   return (
-    <div className="App-mediaSection" id="media">
+    <div className="App-mediaSection" id = 'media'>
     {/* Media Page Title */}
       <h1 className="mediaTitle">Media</h1>
     
-    {/* Teams Content */}
+      {/* Teams Content */}
 
         <div className="teamsCenter">
 
