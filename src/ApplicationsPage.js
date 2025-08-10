@@ -5,7 +5,7 @@ function ApplicationsPage() {
   return (
     <div className="App-appSection" id="application">
     {/* Media Page Title */}
-      <h1 className="appTitle">Application</h1>
+      <h1 className="appTitle">Important Links</h1>
     </div>
   );
 }
