@@ -107,14 +107,21 @@ function App() {
         {/*Directors Section*/}
         <div className="App-directorsSection">
           <h1 className="directorsTitle">Directors</h1>
-          <div className="directorImagesSection">
-            <div className="gotham-frameDirectors">
-              <img className="App-tishaImage" src={tisha} alt="tisha" />
+
+          <div className="directorsSection">
+            
+            <div className="tishSection"> 
+              <img className="App-tishaImage" src={tisha} alt="tisha"/>
+              <h2 className="directorName">Tisha Chhatbar</h2>
             </div>
-            <div className="gotham-frameDirectors">
-              <img className="App-paviImage" src={pavi} alt="pavitra" />
+
+            <div className="paviSection">
+              <img className="App-paviImage" src={pavi} alt="pavi"/>
+              <h2 className="directorName">Pavitra Sugatan</h2>
             </div>
+
           </div>
+
         </div>
 
         {/*Divider between Sections*/}

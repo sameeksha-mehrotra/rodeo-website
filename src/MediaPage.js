@@ -21,11 +21,11 @@ function MediaPage() {
         <div className="teamsCenter">
 
           <div className="teamFramePlacementFirst">
-            <img className="teamImage" src={gtRaas} alt="First Place" onClick={() => window.open('https://youtu.be/BVLQoistZlQ?si=zdj55TL_Z-_bbHIH', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">First Place</span>
               <span className="overlayTextName">Georgia Tech</span>
             </div>
+            <img className="teamImage" src={gtRaas} alt="First Place" onClick={() => window.open('https://youtu.be/BVLQoistZlQ?si=zdj55TL_Z-_bbHIH', '_blank')}/>
           </div>
 
           <div className="teamFramePlacement">
