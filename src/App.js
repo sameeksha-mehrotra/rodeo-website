@@ -29,6 +29,8 @@ import './App.css';
 import MediaPage from './MediaPage';
 import ApplicationsPage from './ApplicationsPage';
 
+import sectionDivider from './horizontalLine.png';
+
 import React, { useState } from 'react';
 
 function App() {
@@ -81,6 +83,7 @@ function App() {
         </div>
 
         {/*Divider between Sections*/}
+        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" />
 
         {/*About Section*/}
         <div className="App-aboutSection" id='about'>
@@ -98,6 +101,9 @@ function App() {
           </rectangle>
         </div>
 
+        {/*Divider between Sections*/}
+        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" />
+
         {/*Directors Section*/}
         <div className="App-directorsSection" id='directors'>
           <h1 className="directorsTitle">Directors</h1>
@@ -110,6 +116,9 @@ function App() {
             </div>
           </div>
         </div>
+
+        {/*Divider between Sections*/}
+        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" />
 
         {/*Board Section*/}
         <div className="App-boardSection" id='board'>
@@ -155,6 +164,9 @@ function App() {
             </Carousel>
           </div>
         </div>
+
+        {/*Divider between Sections*/}
+        <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" />
 
         {/*Partnerships Section*/}
         <div className="App-partnerSection" id='partnerships'>
