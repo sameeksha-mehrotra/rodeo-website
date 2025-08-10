@@ -24,7 +24,7 @@ function MediaPage() {
             <img className="teamImage" src={gtRaas} alt="First Place" onClick={() => window.open('https://youtu.be/BVLQoistZlQ?si=zdj55TL_Z-_bbHIH', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">First Place</span>
-              <span className="overlayTextName">Georgia Tech Ramblin' Raas</span>
+              <span className="overlayTextName">Georgia Tech</span>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ function MediaPage() {
             <img className="teamImage" src={taraas} alt="Second Place" onClick={() => window.open('https://youtu.be/aQQ4JB4apHk?si=583LOQBUinVUeoc9', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Second Place</span>
-              <span className="overlayTextName">University of Texas at Dallas TaRaas</span>
+              <span className="overlayTextName">University of Texas at Dallas</span>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ function MediaPage() {
             <img className="teamImage" src={ucbRaas} alt="Third Place" onClick={() => window.open('https://youtu.be/uVIZPXv-hsI?si=i6_PyxDnKoTB9vEW', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Third Place</span>
-              <span className="overlayTextName">UC Berkeley Raas Ramzat</span>
+              <span className="overlayTextName">UC Berkeley</span>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ function MediaPage() {
             </a>
             <div className="overlay">
               <span className="overlayText">Team 4</span>
-              <span className="overlayTextName">Texas A&M Wreckin' Raas</span>
+              <span className="overlayTextName">Texas A&M</span>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ function MediaPage() {
             <img className="teamImage" src={washRaas} alt="Team 5" onClick={() => window.open('https://youtu.be/ef5TEpz37Dg?si=UzKE8fWIxaJ9cdzS', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Team 5</span>
-              <span className="overlayTextName">Washington University Raas</span>
+              <span className="overlayTextName">Washington University</span>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ function MediaPage() {
             <img className="teamImage" src={uwRaas} alt="Team 6" onClick={() => window.open('https://youtu.be/9h78dRldiAQ?si=itSCPGE23od9lUTY', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Team 6</span>
-              <span className="overlayTextName">University of Washington Raas</span>
+              <span className="overlayTextName">University of Washington</span>
             </div>
           </div>
 
@@ -83,7 +83,6 @@ function MediaPage() {
             <div className="overlay">
               <span className="overlayTextSteelNum">Team 7</span>
               <span className="overlayTextNameSteel">University of Pittsburgh</span>
-               <span className="overlayTextNameSteel">Steel City Raas</span>
             </div>
           </div>
 
@@ -91,7 +90,7 @@ function MediaPage() {
             <img className="teamImage" src={columbiaRaas} alt="Team 8" onClick={() => window.open('https://youtu.be/XEpvkG6oLJ0?si=JYbemU5Gy3u3FT2D', '_blank')}/>
             <div className="overlay">
               <span className="overlayText">Team 8</span>
-              <span className="overlayTextName">Columbia University Raas</span>
+              <span className="overlayTextName">Columbia University</span>
             </div>
           </div>
 
