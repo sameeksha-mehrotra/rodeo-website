@@ -36,6 +36,7 @@ import React, { useState } from 'react';
 function App() {
 
   const [activeTab, setActiveTab] = useState('home');
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
   <div className="App" id='home'>
@@ -109,15 +110,15 @@ function App() {
           <h1 className="directorsTitle">Directors</h1>
 
           <div className="directorsSection">
-            
-            <div className="tishSection"> 
-              <img className="App-tishaImage" src={tisha} alt="tisha"/>
-              <h2 className="directorName">Tisha Chhatbar</h2>
-            </div>
 
             <div className="paviSection">
               <img className="App-paviImage" src={pavi} alt="pavi"/>
-              <h2 className="directorName">Pavitra Sugatan</h2>
+              <h2 className="directorNameP">Pavitra Sugatan <br />pavitrasugatan@raasrodeo.com </h2>
+            </div>
+
+             <div className="tishSection"> 
+              <h2 style={{color: isHovered ? 'white': 'grey'}} className="directorNameT">Tisha Chhatbar  <br /> tishachhatbar@raasrodeo.com</h2>
+              <img className="App-tishaImage" src={tisha} alt="tisha" onMouseEnter={()=> setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}/>
             </div>
 
           </div>

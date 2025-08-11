@@ -164,53 +164,67 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  row-gap: -50px;
 }
 
 .tishSection{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin-right: 200px;
+  margin-right: 150px;
   float: right;
 }
 
 .paviSection{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin-left: 200px;
+  margin-left: 150px;
   float: left;
 }
 
 .App-tishaImage {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   border-radius: 12px;
   object-fit: cover;
   margin: 20px;
 }
 
 .App-paviImage {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   border-radius: 12px;
   object-fit: cover;
   margin: 20px;
   float: left;
 }
 
-.App-tishaImage:hover, .App-paviImage:hover {
+.App-paviImage:hover, .App-tishaImage:hover {
   box-shadow: 0px 0px 5px 10px white;
   transition: box-shadow 0.3s;
 }
 
-.directorName{
+.paviSection img:hover + .directorNameP{
+  color: white;
+}
+
+.directorNameP {
   color: grey;
   font-family: 'Garamond', fantasy, sans-serif;
-  text-align: center;
   font-size: 30px;
-
+  text-align: center;
+  padding-left: 150px;
 }
+
+.directorNameT {
+  color: grey;
+  font-family: 'Garamond', fantasy, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-right: 150px;
+}
+
 /*CSS for board images section of page*/
 
     /*CSS for carousel*/  
