@@ -21,7 +21,7 @@ function MediaPage() {
 
         <div className="teamsCenter">
 
-          <div className="teamFrameOther">
+          <div className="teamFrame">
             <img className="teamImage" src={gtRaas} alt="First Place" onClick={() => window.open('https://youtu.be/BVLQoistZlQ?si=zdj55TL_Z-_bbHIH', '_blank')}/>
             
             <div className="textPair">

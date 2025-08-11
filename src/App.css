@@ -330,20 +330,12 @@
   z-index: 2;
 }
 
-.teamFrameOther img{
-  display: block;
-  width: 300px;
-  height: auto;
-  z-index: 2;
-  border-radius: 12px;
-}
-
 .teamFrameOtherC img{
   display: block;
-  width: 280px;
-  height: 280px;
+  width: 95%;
+  height: 95%;
   z-index: 2;
-  margin-top: 25px;
+  margin-top: 15px;
   border-radius: 12px;
 }
 
