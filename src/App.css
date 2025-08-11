@@ -314,7 +314,7 @@
   font-family:'Garamond', fantasy, sans-serif;
 }
 
-.teamFrame, .teamFrameFive, .teamFramePlacement, .teamFramePlacementFirst{
+.teamFrame, .teamFrameOther, .teamFrameOtherC {
   position: relative; 
   display: inline-block;
   width: 300px;
@@ -330,49 +330,20 @@
   z-index: 2;
 }
 
-.teamFrameFive img{
+.teamFrameOther img{
   display: block;
-  width: 80%;
-  height: 80%;
-  padding: 30px;
-  border-radius: 150px;
-  z-index: 2;
-}
-
-.teamFramePlacementFirst img{
-  display: block;
-  width: 80%;
-  height: 80%;
-  padding: 30px;
-  border-radius: 150px;
-  z-index: 2;
-}
-
-.teamFramePlacement img{
-  display: block;
-  width: 80%;
-  height: 80%;
-  padding: 30px;
-  border-radius: 12px;
-  z-index: 2;
-}
-
-.overlay {
-  position: absolute;
-  top: -5px;
-  left: 0;
   width: 300px;
-  height: 300px; 
-  background-color: white;
-  opacity: 0.9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
-  border-radius: 12px;
-  transition: opacity 0.3s;
-  z-index: 1;
+  height: 300px;
+  border-radius: 150px;
+  z-index: 2;
+}
+
+.teamFrameOtherC img{
+  display: block;
+  width: 260px;
+  z-index: 2;
+  height: 260px;
+  border-radius: 150px;
 }
 
 .overlayText {
@@ -392,38 +363,6 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.overlayTextSteelNum {
-  color: black;
-  padding-top: 20px;
-  padding-bottom: 15px;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  font-family: 'Montserrat', cursive, sans-serif;
-}
-
-.overlayTextNameSteel {
-  color: black;
-  font-size: 20px;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.teamFrame:hover .overlay {
-  opacity: 0;
-}
-.teamFrameFive:hover .overlay {
-  opacity: 0;
-}
-
-.teamFramePlacement:hover .overlay {
-  opacity: 0;
-}
-
-.teamFramePlacementFirst:hover .overlay {
-  opacity: 0;
-}
-
 .teamsCenter {
   display: flex;
   justify-content: space-evenly;
@@ -431,6 +370,7 @@
   gap: 20px;
   padding: 50px;
   margin-bottom: -50px;
+  margin-top: -80px;
   flex-direction: horizontal;
   float: center;
 }
