@@ -5,9 +5,8 @@
 }
 
 .navbar-lineIcon img {
-  width: 113px;
-  height: 100px;
-  margin-top: -5px;
+  height: 16vmin;
+  margin-top: -15px;
 }
 
 .navbar-links {
@@ -21,7 +20,7 @@
   align-items: flex-end;
   min-width: 150px;
   border-radius: 0 0 8px 8px;
-  box-shadow: 0 2px 8px white;
+  /* box-shadow: 0 2px 8px white; */
 }
 
 .navbar-links a {
