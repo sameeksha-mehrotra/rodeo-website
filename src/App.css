@@ -33,7 +33,7 @@
 }
 
 .App-logo {
-  height: 10vmin;
+  height: 80px;
   padding: 15px;
   padding-left: 50px;
   z-index: 2;  
@@ -53,19 +53,19 @@
 }
 
 .App-insta {
-  height: 22px;
+  height: 50px;
   padding-bottom: 3px;
   z-index:  2;  
 }
 
 .App-youtube {
-  height: 22px;
+  height: 50px;
   margin-bottom: -2px;
   z-index:  2; 
 }
 
 .App-tiktok {
-  height: 22px;
+  height: 50px;
   z-index:  2;  
 }
 
@@ -294,7 +294,7 @@
   width: 100%;
   height: 20px;
   padding-top: 80px;
-  margin-bottom: -50px;
+  margin-bottom: -20px;
 }
 
 /*CSS for Media Page*/

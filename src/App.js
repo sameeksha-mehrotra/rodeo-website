@@ -181,7 +181,7 @@ function App() {
       <div className="footer">
         <rectangle className="footer-rectangle">
           <p className="footer-text">© 2025 Raas Rodeo</p>
-          <p className="footer-text">Celebrating 15 year of rodeo</p>
+          <p className="footer-text">Celebrating 15 years of rodeo</p>
           <p className="footer-text">Raas Rodeo XV</p>
         </rectangle>
       </div>
