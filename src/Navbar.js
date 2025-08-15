@@ -68,7 +68,7 @@ function Navbar({ activeTab, setActiveTab }) {
             href="#application"
             className={activeTab === 'application' ? 'active' : ''}
             onClick={() => handleClick('application')}
-          >Important Links</a>
+          >Helpful Links</a>
         </div>
       )}
     </div>

@@ -5,7 +5,7 @@ function ApplicationsPage() {
   return (
     <div className="App-appSection" id="application">
     {/* Important Links Title */}
-      <h1 className="appTitle">Important Links</h1>
+      <h1 className="appTitle">Helpful Links</h1>
 
       <div className="App-appLinks">
 

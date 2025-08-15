@@ -14,9 +14,9 @@ function MediaPage() {
 
   return (
     <div className="App-mediaSection" id = 'media'>
-      
+
     {/* Media Page Title */}
-      <h1 className="mediaTitle">Media</h1>
+      <h1 className="mediaTitle">Media '25</h1>
     
       {/* Teams Content */}
 
