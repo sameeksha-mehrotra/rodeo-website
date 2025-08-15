@@ -112,7 +112,6 @@
   position: absolute;
   width: 24px;
   height: 24px;
-  border: 2px solid #b89d6e; /* gold corners */
   border-radius: 4px;
 }
 
@@ -167,44 +166,26 @@
 
 /*CSS for directors image section of page*/
 
-.directorSection {
+.directorsSection {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  row-gap: -50px;
+  gap: 50px;
 }
 
-.tishSection{
+.tishSection, .paviSection{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 150px;
-  float: right;
+  gap: 100px;
 }
 
-.paviSection{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 150px;
-  float: left;
-}
-
-.App-tishaImage {
+.App-tishaImage, .App-paviImage {
   width: 500px;
   height: 500px;
   border-radius: 12px;
   object-fit: cover;
-  margin: 20px;
-}
-
-.App-paviImage {
-  width: 500px;
-  height: 500px;
-  border-radius: 12px;
-  object-fit: cover;
-  margin: 20px;
-  float: left;
 }
 
 .App-paviImage:hover, .App-tishaImage:hover {
@@ -216,20 +197,26 @@
   color: white;
 }
 
-.directorNameP {
+.directorNameP, .directorNameT {
   color: grey;
   font-family: 'Garamond', fantasy, sans-serif;
   font-size: 30px;
   text-align: center;
-  padding-left: 150px;
 }
 
-.directorNameT {
-  color: grey;
-  font-family: 'Garamond', fantasy, sans-serif;
-  font-size: 30px;
-  text-align: center;
-  padding-right: 150px;
+@media (max-width: 1050px) {
+  .tishSection,
+  .paviSection {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .App-tishaImage,
+  .App-paviImage {
+    width: 80vw;
+    height: auto;
+    max-width: 350px;
+  }
 }
 
 /*CSS for board images section of page*/
@@ -495,7 +482,8 @@
   color: white;
   font-family:'Garamond', fantasy, sans-serif;
   font-weight: bold;
-  gap: 400px;
+  gap: 20%;
+
 }
 
 .footer {
@@ -506,6 +494,14 @@
   width: 100%;
   height: 80%;
   padding-top: 30px;
+}
+
+@media (max-width: 800px) {
+  .footer-rectangle {
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+  }
 }
 
 /* CSS for blank rectangle space */
