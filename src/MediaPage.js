@@ -14,6 +14,7 @@ function MediaPage() {
 
   return (
     <div className="App-mediaSection" id = 'media'>
+      
     {/* Media Page Title */}
       <h1 className="mediaTitle">Media</h1>
     
@@ -102,7 +103,11 @@ function MediaPage() {
 
         </div>
 
+        
+
     </div>
+
+    
   );
 }
 

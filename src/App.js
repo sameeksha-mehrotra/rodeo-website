@@ -66,6 +66,8 @@ function App() {
       <rectangle className="App-extraRectangle"></rectangle>
     </div>
 
+    <rectangle className="App-rectangleBlank"/>
+
     {/* Only show MediaPage if activeTab is 'media' */}
     {activeTab === 'media' ? (
       <MediaPage />
@@ -176,6 +178,8 @@ function App() {
         {/*Divider between Sections*/}
         <img src={sectionDivider} className="App-horizontalLine" alt="horizontal line divider" id='partnerships'/>
 
+
+
         {/*Partnerships Section*/}
         <div className="App-partnerSection">
           <h1 className="partnerTitle">Partnerships</h1>
@@ -190,6 +194,16 @@ function App() {
         </div>
       </>
     )}
+
+    {/*Footer Section*/}
+    <div className="footer">
+        <rectangle className="footer-rectangle">
+          <p className="footer-text">© 2025 Raas Rodeo</p>
+          <p className="footer-text">Celebrating 15 year of rodeo</p>
+          <p className="footer-text">Raas Rodeo XV</p>
+        </rectangle>
+    </div>
+
   </div>
   );
 }
