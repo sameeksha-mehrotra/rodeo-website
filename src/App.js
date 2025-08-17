@@ -116,7 +116,7 @@ function App() {
 
           {/*Board Section*/}
           <div className="App-boardSection">
-            <h1 className="boardTitle">Board</h1>
+            <h1 className="boardTitle" style={{padding: 20}}>Board</h1>
             <div className="gotham-frameBoard">
               <Carousel className="boardCarousel" showThumbs={false} infiniteLoop autoPlay interval={6000}>
                 <div>
@@ -181,7 +181,7 @@ function App() {
       <div className="footer">
         <rectangle className="footer-rectangle">
           <p className="footer-text">© 2025 Raas Rodeo</p>
-          <p className="footer-text">Celebrating 15 years of rodeo</p>
+          {/* <p className="footer-text">Celebrating 15 years of rodeo</p> */}
           <p className="footer-text">Raas Rodeo XV</p>
         </rectangle>
       </div>

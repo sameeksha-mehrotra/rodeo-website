@@ -35,7 +35,7 @@
 .App-logo {
   height: 80px;
   padding: 15px;
-  padding-left: 50px;
+  padding-left: 30px;
   z-index: 2;  
   margin-top: -7px;
 }
@@ -45,7 +45,7 @@
 
 .App-socials {
   margin-left: auto;
-  padding-top: 20px;
+  padding-top: 15px;
   margin-top: -5px;
   display: flex;
   align-items: center;
@@ -103,7 +103,7 @@
   background-color: black;
   box-shadow: 0 0 30px black;
   max-width: 700px;
-  border: 2px solid #444; /* subtle border */
+  /* border: 2px solid #444; */
 }
 
 .gotham-frame::before,
@@ -141,8 +141,8 @@
   font-size: 70px;
   text-align: center;
   color: white;
-  font-family: 'Garamond', sans-serif;
-  padding-top: 30px; /* Less than before */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -167,6 +167,7 @@
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  padding-top: 20px;
 }
 
 .tishSection, .paviSection{
@@ -250,7 +251,7 @@
   background-color: black;
   box-shadow: 0 0 30px black;
   max-width: 600px;
-  border: 2px solid #444; /* subtle border */
+  /* border: 2px solid #444; */
 }
 
 .gotham-frameBoard img {
@@ -306,10 +307,11 @@
 .mediaTitle, .appTitle {
   position: relative;
   padding-top: 10px;
+  padding-bottom: 20px;
   font-size: 80px;
   text-align: center;
   color: white;
-  font-family:'Garamond', fantasy, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .teamFrame, .teamFrameOther, .teamFrameOtherC {
@@ -350,12 +352,12 @@
 .overlayText {
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Montserrat', cursive, sans-serif;
+  font-family: 'Garamond', fantasy, sans-serif;
 }
 
 .overlayTextName {
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .teamsCenter {
@@ -472,8 +474,8 @@
   font-size: 50px;
   text-align: center;
   color: white;
-  font-family:'Garamond', fantasy, sans-serif;
-  margin-bottom: -10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
   padding-top: 20px;
 }
 
@@ -507,8 +509,8 @@
   color: white;
   font-family:'Garamond', fantasy, sans-serif;
   font-weight: bold;
-  gap: 20%;
-
+  /* gap: 20%; */
+  gap: 60%;
 }
 
 .footer {
@@ -523,7 +525,7 @@
 
 @media (max-width: 800px) {
   .footer-rectangle {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 10px;
     height: 200px;
   }
