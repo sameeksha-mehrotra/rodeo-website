@@ -4,6 +4,7 @@
 <br/>
 This project is the official website for Raas Rodeo, a non-profit organization dedicated to promoting the cultural heritage of Raas, a traditional Indian dance form, and fostering community through dance and cultural events. Built from scratch using React in Visual Studio Code, this is the organization's first-ever website. The site provides general information about Raas Rodeo, its executive board, and important links for users, with plans to integrate an AI-powered chatbot to handle urgent FAQs using machine learning.
 <br/>
+
 The website aims to:
 <br/>
 <ul>
