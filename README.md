@@ -107,6 +107,7 @@ Open http://localhost:3000 to view the site in your browser. The page will auto-
 </ul>
 <br/>
 For more details, refer to the Create React App documentation.
+
 <br/>
 
 <b>Project Status:</b>
@@ -133,7 +134,6 @@ This website was developed by Sameeksha Mehrotra, a member of the Raas Rodeo XV 
 <br/>
 
 <b>Acknowledgments</b>
-<br/>
 <ul>
   <li>Raas Rodeo for their inspiring mission and community initiatives</li>
   <li>Create React App for providing a robust starting point for React development</li>
