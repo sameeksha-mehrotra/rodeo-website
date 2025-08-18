@@ -107,7 +107,6 @@ Open http://localhost:3000 to view the site in your browser. The page will auto-
 </ul>
 <br/>
 For more details, refer to the Create React App documentation.
-
 <br/>
 
 <b>Project Status:</b>
