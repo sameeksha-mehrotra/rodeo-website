@@ -1,5 +1,5 @@
 #Raas Rodeo Website
-<br>
+
 <b>Overview:</b>
 <br/>
 This project is the official website for Raas Rodeo, a non-profit organization dedicated to promoting the cultural heritage of Raas, a traditional Indian dance form, and fostering community through dance and cultural events. Built from scratch using React in Visual Studio Code, this is the organization's first-ever website. The site provides general information about Raas Rodeo, its executive board, and important links for users, with plans to integrate an AI-powered chatbot to handle urgent FAQs using machine learning.
@@ -13,12 +13,13 @@ The website aims to:
   <li>Serve as a platform for dancers, artists, and cultural enthusiasts to engage with the organization</li>
 </ul>
 
-<br/>
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>About Raas Rodeo:</b>
 <br/>
 Raas Rodeo is a non-profit organization based in Austin, TX, committed to celebrating and preserving the rich cultural heritage of Raas, a traditional Indian dance form, and Garba. Our mission is to create a vibrant platform for dancers and enthusiasts to learn, perform, and connect while promoting cultural diversity and artistic expression.
-<br/>
+
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Key highlights:</b>
 
@@ -48,7 +49,8 @@ Raas Rodeo is a non-profit organization based in Austin, TX, committed to celebr
   <li>Planned Features: AI and machine learning for an interactive chatbot</li>
   <li>Dependencies: Managed via npm, including React, ReactDOM, and other standard Create React App dependencies</li>
 </ul>
-<br/>
+
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Getting Started:</b>
 
@@ -96,7 +98,8 @@ Prerequisites:
 </ol>
 
 Open http://localhost:3000 to view the site in your browser. The page will auto-reload on code changes.
-<br/>
+
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Available Scripts:</b>
 <ul>
@@ -107,7 +110,8 @@ Open http://localhost:3000 to view the site in your browser. The page will auto-
 </ul>
 <br/>
 For more details, refer to the Create React App documentation.
-<br/>
+
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Project Status:</b>
 <br/>
@@ -120,17 +124,20 @@ This project is actively under development. Current features include static page
   <li>Enhanced styling with frameworks like Tailwind CSS</li>
   <li>Additional interactive features for event registration and community engagement</li>
 </ul>
-<br/>
+
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Contributing</b>
 <br/>
 As this is a personal project for Raas Rodeo, contributions are not open at this time. However, feedback and suggestions are welcome! Please contact the repository owner or Raas Rodeo’s executive board for inquiries.
-<br/>
+
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>About the Developer:</b>
 <br/>
 This website was developed by Sameeksha Mehrotra, a member of the Raas Rodeo XV executive board. The project demonstrates proficiency in React, front-end development, and planning for AI integration, showcasing skills in building user-focused web applications from scratch.
-<br/>
+
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Acknowledgments</b>
 <ul>
