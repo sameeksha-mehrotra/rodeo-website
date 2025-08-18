@@ -24,30 +24,34 @@ Raas Rodeo is a non-profit organization based in Austin, TX, committed to celebr
 <b>Key highlights:</b>
 
 <ul>
-  <li>Annual Competition: Hosts a Raas and Garba dance competition that brings together 8 nationally competing teams and attracts 750 community members</li>
-  <li>Charitable Impact: Proceeds from the event support a South Asian charity each year, benefiting both local and international communities</li>
-  <li>Community Engagement: Organizes workshops, performances, and events to educate about the history and significance of Raas, fostering a sense of community and inclusivity</li>
+  <li><b>Annual Competition:</b> Hosts a Raas and Garba dance competition that brings together 8 nationally competing teams and attracts 750 community members</li>
+  <li><b>Charitable Impact:</b> Proceeds from the event support a South Asian charity each year, benefiting both local and international communities</li>
+  <li><b>Community Engagement:</b> Organizes workshops, performances, and events to educate about the history and significance of Raas, fostering a sense of community and inclusivity</li>
   <li>Join us to celebrate the joy of Raas and be part of a diverse, welcoming community of dancers, artists, and cultural enthusiasts</li>
 </ul>
+
 <br/>
+
 <b>Features:</b>
 <br/>
 <ul>
-  <li>Informational Pages: Provides details about Raas Rodeo’s mission, history, executive board, and upcoming events</li>
-  <li>User Resources: Includes important links for dancers, participants, and community members to engage with the organization</li>
-  <li>Responsive Design: Built with React to ensure a seamless experience across devices</li>
-  <li>Planned AI Chatbot: Future integration of a machine learning-powered chatbot to address urgent FAQs and enhance user interaction</li>
-  <li>Event Highlights: Showcases the annual Raas and Garba competition, including details about teams, performances, and charitable contributions</li>
+  <li><b>Informational Pages:</b> Provides details about Raas Rodeo’s mission, history, executive board, and upcoming events</li>
+  <li><b>User Resources:</b> Includes important links for dancers, participants, and community members to engage with the organization</li>
+  <li><b>Responsive Design:</b> Built with React to ensure a seamless experience across devices</li>
+  <li><b>Planned AI Chatbot:</b> Future integration of a machine learning-powered chatbot to address urgent FAQs and enhance user interaction</li>
+  <li><b>Event Highlights:</b> Showcases the annual Raas and Garba competition, including details about teams, performances, and charitable contributions</li>
 </ul>
+
 <br/>
+
 <b>Technologies Used:</b>
 <br/>
 <ul>
-  <li>Frontend: React (bootstrapped with Create React App)</li>
-  <li>Development Environment: Visual Studio Code</li>
-  <li>Styling: CSS (with potential future use of Tailwind CSS for enhanced styling)</li>
-  <li>Planned Features: AI and machine learning for an interactive chatbot</li>
-  <li>Dependencies: Managed via npm, including React, ReactDOM, and other standard Create React App dependencies</li>
+  <li><b>Frontend:</b> React (bootstrapped with Create React App)</li>
+  <li><b>Development Environment:</b> Visual Studio Code</li>
+  <li><b>Styling:</b> CSS (with potential future use of Tailwind CSS for enhanced styling)</li>
+  <li><b>Planned Features:</b> AI and machine learning for an interactive chatbot</li>
+  <li><b>Dependencies:</b> Managed via npm, including React, ReactDOM, and other standard Create React App dependencies</li>
 </ul>
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -103,13 +107,11 @@ Open http://localhost:3000 to view the site in your browser. The page will auto-
 
 <b>Available Scripts:</b>
 <ul>
-  <li>npm start: Runs the app in development mode</li>
-  <li>npm test: Launches the test runner in interactive watch mode</li>
-  <li>npm run build: Builds the app for production in the build folder, optimized and minified</li>
-  <li>npm run eject: Exposes configuration files for advanced customization (irreversible)</li>
+  <li><b>npm start:</b> Runs the app in development mode</li>
+  <li><b>npm test:</b> Launches the test runner in interactive watch mode</li>
+  <li><b>npm run build:</b> Builds the app for production in the build folder, optimized and minified</li>
+  <li><b>npm run eject:</b> Exposes configuration files for advanced customization (irreversible)</li>
 </ul>
-<br/>
-For more details, refer to the Create React App documentation.
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -127,7 +129,7 @@ This project is actively under development. Current features include static page
 
 -----------------------------------------------------------------------------------------------------------------------
 
-<b>Contributing</b>
+<b>Contributing:</b>
 <br/>
 As this is a personal project for Raas Rodeo, contributions are not open at this time. However, feedback and suggestions are welcome! Please contact the repository owner or Raas Rodeo’s executive board for inquiries.
 
@@ -139,7 +141,7 @@ This website was developed by Sameeksha Mehrotra, a member of the Raas Rodeo XV 
 
 -----------------------------------------------------------------------------------------------------------------------
 
-<b>Acknowledgments</b>
+<b>Acknowledgments:</b>
 <ul>
   <li>Raas Rodeo for their inspiring mission and community initiatives</li>
   <li>Create React App for providing a robust starting point for React development</li>
