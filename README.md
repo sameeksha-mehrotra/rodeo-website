@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+# Raas Rodeo Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<b>Overview:</b>
+<br/>
+This project is the official website for Raas Rodeo, a non-profit organization dedicated to promoting the cultural heritage of Raas, a traditional Indian dance form, and fostering community through dance and cultural events. Built from scratch using React in Visual Studio Code, this is the organization's first-ever website. The site provides general information about Raas Rodeo, its executive board, and important links for users, with plans to integrate an AI-powered chatbot to handle urgent FAQs using machine learning.
+<br/>
 
-## Available Scripts
+The website aims to:
+<br/>
+<ul>
+  <li>Showcase Raas Rodeo's mission, events, and community initiatives</li>
+  <li>Provide details about the organization’s annual Raas and Garba dance competition</li>
+  <li>Serve as a platform for dancers, artists, and cultural enthusiasts to engage with the organization</li>
+</ul>
 
-In the project directory, you can run:
+-----------------------------------------------------------------------------------------------------------------------
 
-### `npm start`
+<b>About Raas Rodeo:</b>
+<br/>
+Raas Rodeo is a non-profit organization based in Austin, TX, committed to celebrating and preserving the rich cultural heritage of Raas, a traditional Indian dance form, and Garba. Our mission is to create a vibrant platform for dancers and enthusiasts to learn, perform, and connect while promoting cultural diversity and artistic expression.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-----------------------------------------------------------------------------------------------------------------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<b>Key highlights:</b>
 
-### `npm test`
+<ul>
+  <li><b>Annual Competition:</b> Hosts a Raas and Garba dance competition that brings together 8 nationally competing teams and attracts 750 community members</li>
+  <li><b>Charitable Impact:</b> Proceeds from the event support a South Asian charity each year, benefiting both local and international communities</li>
+  <li><b>Community Engagement:</b> Organizes workshops, performances, and events to educate about the history and significance of Raas, fostering a sense of community and inclusivity</li>
+  <li>Join us to celebrate the joy of Raas and be part of a diverse, welcoming community of dancers, artists, and cultural enthusiasts</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `npm run build`
+<b>Features:</b>
+<br/>
+<ul>
+  <li><b>Informational Pages:</b> Provides details about Raas Rodeo’s mission, history, executive board, and upcoming events</li>
+  <li><b>User Resources:</b> Includes important links for dancers, participants, and community members to engage with the organization</li>
+  <li><b>Responsive Design:</b> Built with React to ensure a seamless experience across devices</li>
+  <li><b>Planned AI Chatbot:</b> Future integration of a machine learning-powered chatbot to address urgent FAQs and enhance user interaction</li>
+  <li><b>Event Highlights:</b> Showcases the annual Raas and Garba competition, including details about teams, performances, and charitable contributions</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<b>Technologies Used:</b>
+<br/>
+<ul>
+  <li><b>Frontend:</b> React (bootstrapped with Create React App)</li>
+  <li><b>Development Environment:</b> Visual Studio Code</li>
+  <li><b>Styling:</b> CSS (with potential future use of Tailwind CSS for enhanced styling)</li>
+  <li><b>Planned Features:</b> AI and machine learning for an interactive chatbot</li>
+  <li><b>Dependencies:</b> Managed via npm, including React, ReactDOM, and other standard Create React App dependencies</li>
+</ul>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-----------------------------------------------------------------------------------------------------------------------
 
-### `npm run eject`
+<b>Getting Started:</b>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Prerequisites: 
+<br/>
+<ul>
+  <li>Node.js (version 14 or higher)</li>
+  <li>npm (comes with Node.js)</li>
+  <li>Visual Studio Code (recommended for development)</li>
+</ul>
+<br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<b>Installation:</b>
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<ol>
+  <li>Clone the repository:
+      <br/>
+      <pre>
+        <code>
+          git clone https://github.com/sameeksha-mehrotra/rodeo-website.git
+          <br/>
+          cd rodeo-website
+        </code>
+      </pre>
+  </li>
+  <li>
+    Install dependencies:
+    <br/>
+      <pre>
+        <code>
+          npm install
+        </code>
+      </pre>
+  </li>
+  <li>
+    Start the development server:
+    <br/>
+      <pre>
+        <code>
+          npm start
+        </code>
+      </pre>
+  </li>
+</ol>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Open http://localhost:3000 to view the site in your browser. The page will auto-reload on code changes.
 
-## Learn More
+-----------------------------------------------------------------------------------------------------------------------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<b>Available Scripts:</b>
+<ul>
+  <li><b>npm start:</b> Runs the app in development mode</li>
+  <li><b>npm test:</b> Launches the test runner in interactive watch mode</li>
+  <li><b>npm run build:</b> Builds the app for production in the build folder, optimized and minified</li>
+  <li><b>npm run eject:</b> Exposes configuration files for advanced customization (irreversible)</li>
+</ul>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-----------------------------------------------------------------------------------------------------------------------
 
-### Code Splitting
+<b>Project Status:</b>
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is actively under development. Current features include static pages for organization information, board details, and links. Future enhancements include:
+<br/>
 
-### Analyzing the Bundle Size
+<ul>
+  <li>Integration of an AI-powered chatbot for FAQs</li>
+  <li>Enhanced styling with frameworks like Tailwind CSS</li>
+  <li>Additional interactive features for event registration and community engagement</li>
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+-----------------------------------------------------------------------------------------------------------------------
 
-### Making a Progressive Web App
+<b>Contributing:</b>
+<br/>
+As this is a personal project for Raas Rodeo, contributions are not open at this time. However, feedback and suggestions are welcome! Please contact the repository owner or Raas Rodeo’s executive board for inquiries.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-----------------------------------------------------------------------------------------------------------------------
 
-### Advanced Configuration
+<b>About the Developer:</b>
+<br/>
+This website was developed by Sameeksha Mehrotra, a member of the Raas Rodeo XV executive board. The project demonstrates proficiency in React, front-end development, and planning for AI integration, showcasing skills in building user-focused web applications from scratch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-----------------------------------------------------------------------------------------------------------------------
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<b>Acknowledgments:</b>
+<ul>
+  <li>Raas Rodeo for their inspiring mission and community initiatives</li>
+  <li>Create React App for providing a robust starting point for React development</li>
+</ul>
