@@ -1,5 +1,5 @@
 .App {
-  background-color: #13344e;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
 .App-topPage-rectangle {
   width: 100%;
   height: 90px;
-  background-color: #13344e;
+  background-color: black;
   z-index: 1;
   display: flex;
 }
