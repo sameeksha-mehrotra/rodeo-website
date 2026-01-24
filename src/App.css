@@ -126,48 +126,43 @@
    HERO SECTION
    ========================================== */
 .App-hero {
-  padding: 60px 20px 80px;
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 10, 0.4) 0%,
+    rgba(10, 10, 10, 0.5) 50%,
+    rgba(10, 10, 10, 0.85) 100%
+  );
+  z-index: 1;
 }
 
 .hero-content {
+  position: relative;
+  z-index: 2;
   max-width: 900px;
-  margin: 0 auto;
+  padding: 60px 20px;
 }
 
 .App-raasTitle {
   width: 100%;
-  max-width: 600px;
-  margin-bottom: 40px;
+  max-width: 650px;
   opacity: 0;
   animation: fadeInUp 0.8s ease forwards;
-}
-
-.hero-image-container {
-  position: relative;
-  display: inline-block;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: var(--shadow-soft);
-  opacity: 0;
-  animation: fadeInUp 0.8s ease 0.2s forwards;
-}
-
-.hero-image-container::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 2px solid var(--color-accent-gold);
-  border-radius: 16px;
-  opacity: 0.3;
-  pointer-events: none;
-}
-
-.App-entireBoard {
-  width: 100%;
-  max-width: 800px;
-  display: block;
-  border-radius: 14px;
+  filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.5));
 }
 
 @keyframes fadeInUp {
@@ -655,6 +650,16 @@
 
   .header-divider {
     height: 30px;
+  }
+
+  .App-hero {
+    min-height: 70vh;
+    background-attachment: scroll;
+    background-position: center center;
+  }
+
+  .App-raasTitle {
+    max-width: 90%;
   }
 
   .App-section {

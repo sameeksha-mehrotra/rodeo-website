@@ -65,12 +65,10 @@ function App() {
         ) : (
           <>
             {/* Hero Section */}
-            <section className="App-hero" id="home-content">
+            <section className="App-hero" id="home-content" style={{ backgroundImage: `url(${entireBoard})` }}>
+              <div className="hero-overlay"></div>
               <div className="hero-content">
                 <img className="App-raasTitle" src={raasTitle} alt="raas title" />
-                <div className="hero-image-container">
-                  <img className="App-entireBoard" src={entireBoard} alt="entire board" />
-                </div>
               </div>
             </section>
 
