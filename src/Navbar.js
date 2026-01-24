@@ -1,77 +1,66 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
-import hamMenu from './hamburgerMenu.png';
 
 function Navbar({ activeTab, setActiveTab }) {
-  const [open, setOpen] = useState(false);
-  const navbarRef = useRef(null);
-
-  const handleToggle = () => setOpen(!open);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleClick = (tab) => {
     setActiveTab(tab);
-    setOpen(false);
+    setMobileOpen(false);
   };
 
-  useEffect(() => {
-    function handleOutsideClick(event) {
-      if (open && navbarRef.current && !navbarRef.current.contains(event.target)) {
-        setOpen(false);
-      }
-    }
-    document.addEventListener('mousedown', handleOutsideClick);
-    return () => {
-      document.removeEventListener('mousedown', handleOutsideClick);
-    };
-  }, [open]);
+  const navItems = [
+    { id: 'home', label: 'Home', href: '#home' },
+    { id: 'about', label: 'About', href: '#about' },
+    { id: 'directors', label: 'Directors', href: '#directors' },
+    { id: 'board', label: 'Board', href: '#board' },
+    { id: 'partnerships', label: 'Partnerships', href: '#partnerships' },
+    { id: 'media', label: 'Media', href: '#media' },
+    { id: 'application', label: 'Links', href: '#application' },
+  ];
 
   return (
-    <div className="navbar" ref={navbarRef}>
-      <div className="navbar-lineIcon" onClick={handleToggle} style={{ cursor: 'pointer' }}>
-        <img src={hamMenu} alt="hamburger icon" />
+    <nav className="navbar">
+      {/* Desktop Navigation - Horizontal Tabs */}
+      <div className="navbar-tabs">
+        {navItems.map((item) => (
+          <a
+            key={item.id}
+            href={item.href}
+            className={`navbar-tab ${activeTab === item.id ? 'active' : ''}`}
+            onClick={() => handleClick(item.id)}
+          >
+            {item.label}
+            <span className="tab-underline"></span>
+          </a>
+        ))}
       </div>
-      {open && (
-        <div className="navbar-links">
+
+      {/* Mobile Hamburger */}
+      <button
+        className={`navbar-hamburger ${mobileOpen ? 'open' : ''}`}
+        onClick={() => setMobileOpen(!mobileOpen)}
+        aria-label="Toggle navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      {/* Mobile Navigation Menu */}
+      <div className={`navbar-mobile ${mobileOpen ? 'open' : ''}`}>
+        {navItems.map((item) => (
           <a
-            href="#home"
-            className={activeTab === 'home' ? 'active' : ''}
-            scroll-behavior="smooth"
-            onClick={() => handleClick('home')}
-          >Home</a>
-          <a
-            href="#about"
-            className={activeTab === 'about' ? 'active' : ''}
-            scroll-behavior="smooth"
-            onClick={() => handleClick('about')}
-          >About</a>
-          <a
-            href="#directors"
-            className={activeTab === 'directors' ? 'active' : ''}
-            onClick={() => handleClick('directors')}
-          >Directors</a>
-          <a
-            href="#board"
-            className={activeTab === 'board' ? 'active' : ''}
-            onClick={() => handleClick('board')}
-          >Board</a>
-          <a
-            href="#partnerships"
-            className={activeTab === 'partnerships' ? 'active' : ''}
-            onClick={() => handleClick('partnerships')}
-          >Partnerships</a>
-          <a
-            href="#media"
-            className={activeTab === 'media' ? 'active' : ''}
-            onClick={() => handleClick('media')}
-          >Media Page</a>
-          <a
-            href="#application"
-            className={activeTab === 'application' ? 'active' : ''}
-            onClick={() => handleClick('application')}
-          >Helpful Links</a>
-        </div>
-      )}
-    </div>
+            key={item.id}
+            href={item.href}
+            className={`navbar-mobile-link ${activeTab === item.id ? 'active' : ''}`}
+            onClick={() => handleClick(item.id)}
+          >
+            {item.label}
+          </a>
+        ))}
+      </div>
+    </nav>
   );
 }
 
