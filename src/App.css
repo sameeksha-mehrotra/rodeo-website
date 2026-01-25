@@ -431,7 +431,7 @@
    ========================================== */
 .MediaPage,
 .App-mediaSection {
-  background-color: var(--color-media-bg);
+  background-color: var(--color-bg-primary);
   min-height: 100vh;
   padding-bottom: 80px;
 }
