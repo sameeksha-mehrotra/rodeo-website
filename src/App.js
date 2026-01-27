@@ -17,8 +17,6 @@ import logistics from './logistics Pic.png';
 import hospitality from './hospitality Pic.png';
 import pr from './pr Pic.png';
 import creative from './creative Pic.png';
-import partnerPlace from './partner placeholder.png';
-import partnerPlace2 from './partner placeholder2.png';
 import raasTitle from './raasTitleFont.png';
 import './App.css';
 import MediaPage from './MediaPage';
@@ -66,7 +64,6 @@ function App() {
   const aboutRef = useFadeInOnScroll(activeTab);
   const directorsRef = useFadeInOnScroll(activeTab);
   const boardRef = useFadeInOnScroll(activeTab);
-  const partnersRef = useFadeInOnScroll(activeTab);
 
   return (
     <div className="App" id='home'>
@@ -203,22 +200,6 @@ function App() {
                     <p className="legend">Akshitha Venkataraman, Srimukta Pisupati, Sameeksha Mehrotra</p>
                   </div>
                 </Carousel>
-              </div>
-            </section>
-
-            {/* Partnerships Section */}
-            <section ref={partnersRef} className="App-section App-partnerSection fade-in-right" id="partnerships">
-              <div className="section-header">
-                <h2 className="section-title">Partnerships</h2>
-                <div className="section-title-line"></div>
-              </div>
-              <div className="partners-grid">
-                <a href="https://www.instagram.com/reel/DL8ZL0_ulE5/?utm_source=ig_web_copy_link&igsh=dzByNWNkc2M4aWRu" target="_blank" rel="noreferrer" className="partner-link">
-                  <img className="partner-logo" src={partnerPlace} alt="partner" />
-                </a>
-                <a href="https://www.instagram.com/reel/DL8ZL0_ulE5/?utm_source=ig_web_copy_link&igsh=dzByNWNkc2M4aWRu" target="_blank" rel="noreferrer" className="partner-link">
-                  <img className="partner-logo" src={partnerPlace2} alt="partner" />
-                </a>
               </div>
             </section>
           </>

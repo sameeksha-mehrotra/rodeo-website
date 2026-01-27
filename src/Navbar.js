@@ -14,7 +14,6 @@ function Navbar({ activeTab, setActiveTab }) {
     { id: 'about', label: 'About', href: '#about' },
     { id: 'directors', label: 'Directors', href: '#directors' },
     { id: 'board', label: 'Board', href: '#board' },
-    { id: 'partnerships', label: 'Partnerships', href: '#partnerships' },
     { id: 'media', label: 'Media', href: '#media' },
     { id: 'application', label: 'Links', href: '#application' },
   ];
