@@ -23,10 +23,45 @@ import raasTitle from './raasTitleFont.png';
 import './App.css';
 import MediaPage from './MediaPage';
 import ApplicationsPage from './ApplicationsPage';
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+
+// Custom hook for fade-in on scroll
+function useFadeInOnScroll() {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in-visible');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    const element = ref.current;
+    if (element) {
+      observer.observe(element);
+    }
+
+    return () => {
+      if (element) {
+        observer.unobserve(element);
+      }
+    };
+  }, []);
+
+  return ref;
+}
 
 function App() {
   const [activeTab, setActiveTab] = useState('home');
+  const aboutRef = useFadeInOnScroll();
+  const directorsRef = useFadeInOnScroll();
+  const boardRef = useFadeInOnScroll();
+  const partnersRef = useFadeInOnScroll();
 
   return (
     <div className="App" id='home'>
@@ -72,7 +107,7 @@ function App() {
             </section>
 
             {/* About Section */}
-            <section className="App-section App-aboutSection" id="about">
+            <section ref={aboutRef} className="App-section App-aboutSection fade-in-left" id="about">
               <div className="section-header">
                 <h2 className="section-title">About Us</h2>
                 <div className="section-title-line"></div>
@@ -91,7 +126,7 @@ function App() {
             </section>
 
             {/* Directors Section */}
-            <section className="App-section App-directorsSection" id="directors">
+            <section ref={directorsRef} className="App-section App-directorsSection fade-in-right" id="directors">
               <div className="section-header">
                 <h2 className="section-title">Directors</h2>
                 <div className="section-title-line"></div>
@@ -119,7 +154,7 @@ function App() {
             </section>
 
             {/* Board Section */}
-            <section className="App-section App-boardSection" id="board">
+            <section ref={boardRef} className="App-section App-boardSection fade-in-left" id="board">
               <div className="section-header">
                 <h2 className="section-title">Board</h2>
                 <div className="section-title-line"></div>
@@ -167,7 +202,7 @@ function App() {
             </section>
 
             {/* Partnerships Section */}
-            <section className="App-section App-partnerSection" id="partnerships">
+            <section ref={partnersRef} className="App-section App-partnerSection fade-in-right" id="partnerships">
               <div className="section-header">
                 <h2 className="section-title">Partnerships</h2>
                 <div className="section-title-line"></div>

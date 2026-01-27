@@ -695,3 +695,23 @@ button:focus-visible {
   outline: 2px solid var(--color-accent-gold);
   outline-offset: 2px;
 }
+
+/* ==========================================
+   SCROLL FADE-IN ANIMATIONS
+   ========================================== */
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(60px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
