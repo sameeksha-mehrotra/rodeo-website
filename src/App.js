@@ -26,10 +26,16 @@ import ApplicationsPage from './ApplicationsPage';
 import React, { useState, useEffect, useRef } from 'react';
 
 // Custom hook for fade-in on scroll
-function useFadeInOnScroll() {
+function useFadeInOnScroll(activeTab) {
   const ref = useRef(null);
 
   useEffect(() => {
+    const element = ref.current;
+    if (!element) return;
+
+    // Reset the visible class when tab changes
+    element.classList.remove('fade-in-visible');
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -41,27 +47,26 @@ function useFadeInOnScroll() {
       { threshold: 0.1 }
     );
 
-    const element = ref.current;
-    if (element) {
+    // Small delay to ensure the reset takes effect before observing
+    const timeoutId = setTimeout(() => {
       observer.observe(element);
-    }
+    }, 50);
 
     return () => {
-      if (element) {
-        observer.unobserve(element);
-      }
+      clearTimeout(timeoutId);
+      observer.unobserve(element);
     };
-  }, []);
+  }, [activeTab]);
 
   return ref;
 }
 
 function App() {
   const [activeTab, setActiveTab] = useState('home');
-  const aboutRef = useFadeInOnScroll();
-  const directorsRef = useFadeInOnScroll();
-  const boardRef = useFadeInOnScroll();
-  const partnersRef = useFadeInOnScroll();
+  const aboutRef = useFadeInOnScroll(activeTab);
+  const directorsRef = useFadeInOnScroll(activeTab);
+  const boardRef = useFadeInOnScroll(activeTab);
+  const partnersRef = useFadeInOnScroll(activeTab);
 
   return (
     <div className="App" id='home'>
