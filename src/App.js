@@ -5,7 +5,7 @@ import youtube from './youtubeLogo.png';
 import Navbar from './Navbar';
 import tisha from './tishaPic.png';
 import pavi from './paviPic.png';
-import entireBoard from './entireBoard.png';
+import collage from './collage.png';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import headL from './headLiasons pic.png';
@@ -65,10 +65,9 @@ function App() {
         ) : (
           <>
             {/* Hero Section */}
-            <section className="App-hero" id="home-content" style={{ backgroundImage: `url(${entireBoard})` }}>
+            <section className="App-hero" id="home-content" style={{ backgroundImage: `url(${collage})` }}>
               <div className="hero-overlay"></div>
               <div className="hero-content">
-                <img className="App-raasTitle" src={raasTitle} alt="raas title" />
               </div>
             </section>
 

@@ -127,13 +127,14 @@
    ========================================== */
 .App-hero {
   position: relative;
-  min-height: 85vh;
+  min-height: calc(100vh - 90px);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: #000;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -141,12 +142,7 @@
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(10, 10, 10, 0.4) 0%,
-    rgba(10, 10, 10, 0.5) 50%,
-    rgba(10, 10, 10, 0.85) 100%
-  );
+  background: transparent;
   z-index: 1;
 }
 
@@ -653,7 +649,7 @@
   }
 
   .App-hero {
-    min-height: 70vh;
+    min-height: calc(100vh - 90px);
     background-attachment: scroll;
     background-position: center center;
   }
