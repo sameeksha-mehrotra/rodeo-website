@@ -61,16 +61,35 @@ function useFadeInOnScroll(activeTab) {
 
 function App() {
   const [activeTab, setActiveTab] = useState('home');
+  const [animationKey, setAnimationKey] = useState(0);
+  const [showAnimation, setShowAnimation] = useState(true);
   const aboutRef = useFadeInOnScroll(activeTab);
   const directorsRef = useFadeInOnScroll(activeTab);
   const boardRef = useFadeInOnScroll(activeTab);
+
+  // Reset animation when clicking home
+  const handleHomeClick = () => {
+    setActiveTab('home');
+    setShowAnimation(true);
+    setAnimationKey(prev => prev + 1);
+  };
+
+  // Hide animation after it completes
+  useEffect(() => {
+    if (showAnimation && activeTab === 'home') {
+      const timer = setTimeout(() => {
+        setShowAnimation(false);
+      }, 2500); // Animation duration
+      return () => clearTimeout(timer);
+    }
+  }, [showAnimation, activeTab, animationKey]);
 
   return (
     <div className="App" id='home'>
       {/* Header with Logo, Socials, and Navigation */}
       <header className="App-header">
         <div className="App-header-content">
-          <a href="#home" onClick={() => setActiveTab('home')} className="App-logo-link">
+          <a href="#home" onClick={handleHomeClick} className="App-logo-link">
             <img src={logo} className="App-logo" alt="raas rodeo logo" />
           </a>
 
@@ -87,7 +106,7 @@ function App() {
               </a>
             </div>
             <div className="header-divider"></div>
-            <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
+            <Navbar activeTab={activeTab} setActiveTab={setActiveTab} onHomeClick={handleHomeClick}/>
           </div>
         </div>
         <div className="App-header-accent"></div>
@@ -103,8 +122,15 @@ function App() {
           <>
             {/* Hero Section */}
             <section className="App-hero" id="home-content" style={{ backgroundImage: `url(${collage})` }}>
-              <div className="hero-overlay"></div>
+              {showAnimation && (
+                <div className="hero-animation-overlay" key={`overlay-${animationKey}`}></div>
+              )}
               <div className="hero-content">
+                {showAnimation && (
+                  <div className="bat-animation-container" key={animationKey}>
+                    <h1 className="hero-title">RAAS RODEO</h1>
+                  </div>
+                )}
               </div>
             </section>
 

@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 
-function Navbar({ activeTab, setActiveTab }) {
+function Navbar({ activeTab, setActiveTab, onHomeClick }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleClick = (tab) => {
-    setActiveTab(tab);
+    if (tab === 'home' && onHomeClick) {
+      onHomeClick();
+    } else {
+      setActiveTab(tab);
+    }
     setMobileOpen(false);
   };
 
