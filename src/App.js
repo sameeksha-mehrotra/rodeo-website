@@ -7,13 +7,13 @@ import tisha from './tishaPic.png';
 import pavi from './paviPic.png';
 import collage from './collage.png';
 import headL from './headLiaisonsNew.png';
-import jo from './j&o pic.png';
+import jo from './joNew.png';
 import social from './socialNew.png';
-import finance from './finance Pic.png';
+import finance from './financeNew.png';
 import show from './showNew.png';
-import logistics from './logistics Pic.png';
+import logistics from './logisticsNew.png';
 import hospitality from './hospitalityNew.png';
-import pr from './pr Pic.png';
+import pr from './prNew.png';
 import creative from './creative Pic.png';
 import raasTitle from './raasTitleFont.png';
 import './App.css';
@@ -203,8 +203,9 @@ function App() {
                       <img src={jo} alt="Judging and Outreach" className="board-bar-image" />
                       <div className="board-bar-names">
                         <h3 className="board-bar-title">Judging & Outreach</h3>
+                        <p>Anjali Cherukuri</p>
                         <p>Vivek Patel</p>
-                        <p>Simali Shah</p>
+                        <p>Savitha Shan</p>
                       </div>
                     </div>
                   </div>
@@ -250,9 +251,10 @@ function App() {
                       <img src={logistics} alt="Logistics" className="board-bar-image" />
                       <div className="board-bar-names">
                         <h3 className="board-bar-title">Logistics</h3>
+                        <p>Ashley Kurian</p>
                         <p>Diya Patel</p>
                         <p>Aditya Yadav</p>
-                        <p>Ashley Kurian</p>
+                        <p>Simali Shah</p>
                       </div>
                     </div>
                   </div>
@@ -274,8 +276,8 @@ function App() {
                       <img src={pr} alt="Public Relations" className="board-bar-image" />
                       <div className="board-bar-names">
                         <h3 className="board-bar-title">PR</h3>
-                        <p>Nishita Appana</p>
                         <p>Tanisha Khurana</p>
+                        <p>Ashrita Padidam</p>
                       </div>
                     </div>
                   </div>
