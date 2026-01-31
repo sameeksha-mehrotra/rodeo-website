@@ -14,7 +14,8 @@ import show from './showNew.png';
 import logistics from './logisticsNew.png';
 import hospitality from './hospitalityNew.png';
 import pr from './prNew.png';
-import creative from './creative Pic.png';
+import creative from './creativeNew.png';
+import freshmanReps from './freshmanReps.png';
 import raasTitle from './raasTitleFont.png';
 import './App.css';
 import MediaPage from './MediaPage';
@@ -282,8 +283,8 @@ function App() {
                     </div>
                   </div>
                 </div>
-                {/* Row 5 - Creative centered */}
-                <div className="board-row board-row-single">
+                {/* Row 5 */}
+                <div className="board-row">
                   <div className="board-bar board-bar-left">
                     <div className="board-bar-content">
                       <div className="board-bar-names">
@@ -293,6 +294,17 @@ function App() {
                         <p>Akshitha Venkataraman</p>
                       </div>
                       <img src={creative} alt="Creative" className="board-bar-image" />
+                    </div>
+                  </div>
+                  <div className="board-bar board-bar-right">
+                    <div className="board-bar-content">
+                      <img src={freshmanReps} alt="Freshman Reps" className="board-bar-image" />
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">Freshman Reps</h3>
+                        <p>Divya Madabusi</p>
+                        <p>Deepika Chitirala</p>
+                        <p>Dedeepya Rudraraju</p>
+                      </div>
                     </div>
                   </div>
                 </div>
