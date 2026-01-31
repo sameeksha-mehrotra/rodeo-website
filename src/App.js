@@ -6,13 +6,13 @@ import Navbar from './Navbar';
 import tisha from './tishaPic.png';
 import pavi from './paviPic.png';
 import collage from './collage.png';
-import headL from './headLiasons pic.png';
+import headL from './headLiaisonsNew.png';
 import jo from './j&o pic.png';
-import social from './social Pic.png';
+import social from './socialNew.png';
 import finance from './finance Pic.png';
-import show from './show pic.png';
+import show from './showNew.png';
 import logistics from './logistics Pic.png';
-import hospitality from './hospitality Pic.png';
+import hospitality from './hospitalityNew.png';
 import pr from './pr Pic.png';
 import creative from './creative Pic.png';
 import raasTitle from './raasTitleFont.png';
@@ -192,9 +192,8 @@ function App() {
                     <div className="board-bar-content">
                       <div className="board-bar-names">
                         <h3 className="board-bar-title">Head Liaisons</h3>
-                        <p>Savitha Shanmugasundaram</p>
-                        <p>Miloni Patel</p>
                         <p>Akash Gupta</p>
+                        <p>Tihar Islam</p>
                       </div>
                       <img src={headL} alt="Head Liaisons" className="board-bar-image" />
                     </div>
@@ -216,8 +215,8 @@ function App() {
                     <div className="board-bar-content">
                       <div className="board-bar-names">
                         <h3 className="board-bar-title">Social</h3>
-                        <p>Uma Kamath</p>
                         <p>Roshan Ahmed</p>
+                        <p>Uma Kamath</p>
                       </div>
                       <img src={social} alt="Social" className="board-bar-image" />
                     </div>
@@ -240,8 +239,8 @@ function App() {
                     <div className="board-bar-content">
                       <div className="board-bar-names">
                         <h3 className="board-bar-title">Show</h3>
-                        <p>Eshan Mehdiratta</p>
                         <p>Anika Koppula</p>
+                        <p>Eshan Mehdiratta</p>
                       </div>
                       <img src={show} alt="Show" className="board-bar-image" />
                     </div>
@@ -264,7 +263,7 @@ function App() {
                     <div className="board-bar-content">
                       <div className="board-bar-names">
                         <h3 className="board-bar-title">Hospitality</h3>
-                        <p>Amolika Kondapalli</p>
+                        <p>Avighna Kamma</p>
                         <p>Anirudh Radhakrishnan</p>
                       </div>
                       <img src={hospitality} alt="Hospitality" className="board-bar-image" />
