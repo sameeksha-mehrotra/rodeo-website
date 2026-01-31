@@ -6,8 +6,6 @@ import Navbar from './Navbar';
 import tisha from './tishaPic.png';
 import pavi from './paviPic.png';
 import collage from './collage.png';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import headL from './headLiasons pic.png';
 import jo from './j&o pic.png';
 import social from './social Pic.png';
@@ -187,45 +185,116 @@ function App() {
                 <h2 className="section-title">Board</h2>
                 <div className="section-title-line"></div>
               </div>
-              <div className="board-carousel-container">
-                <Carousel className="boardCarousel" showThumbs={false} infiniteLoop autoPlay interval={6000} showStatus={false}>
-                  <div className="carousel-slide">
-                    <img src={headL} alt="Head Liaisons" />
-                    <p className="legend">Savitha Shanmugasundaram, Miloni Patel, Akash Gupta</p>
+              <div className="board-zigzag-container">
+                {/* Row 1 */}
+                <div className="board-row">
+                  <div className="board-bar board-bar-left">
+                    <div className="board-bar-content">
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">Head Liaisons</h3>
+                        <p>Savitha Shanmugasundaram</p>
+                        <p>Miloni Patel</p>
+                        <p>Akash Gupta</p>
+                      </div>
+                      <img src={headL} alt="Head Liaisons" className="board-bar-image" />
+                    </div>
                   </div>
-                  <div className="carousel-slide">
-                    <img src={jo} alt="Judging and Outreach" />
-                    <p className="legend">Vivek Patel, Simali Shah</p>
+                  <div className="board-bar board-bar-right">
+                    <div className="board-bar-content">
+                      <img src={jo} alt="Judging and Outreach" className="board-bar-image" />
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">Judging & Outreach</h3>
+                        <p>Vivek Patel</p>
+                        <p>Simali Shah</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="carousel-slide">
-                    <img src={social} alt="Social" />
-                    <p className="legend">Uma Kamath, Roshan Ahmed</p>
+                </div>
+                {/* Row 2 */}
+                <div className="board-row">
+                  <div className="board-bar board-bar-left">
+                    <div className="board-bar-content">
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">Social</h3>
+                        <p>Uma Kamath</p>
+                        <p>Roshan Ahmed</p>
+                      </div>
+                      <img src={social} alt="Social" className="board-bar-image" />
+                    </div>
                   </div>
-                  <div className="carousel-slide">
-                    <img src={finance} alt="Finance" />
-                    <p className="legend">Netra Bhargava, Akhil Morusupalli, Meena Ramaswamy</p>
+                  <div className="board-bar board-bar-right">
+                    <div className="board-bar-content">
+                      <img src={finance} alt="Finance" className="board-bar-image" />
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">Finance</h3>
+                        <p>Netra Bhargava</p>
+                        <p>Akhil Morusupalli</p>
+                        <p>Meena Ramaswamy</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="carousel-slide">
-                    <img src={show} alt="Show" />
-                    <p className="legend">Eshan Mehdiratta, Anika Koppula</p>
+                </div>
+                {/* Row 3 */}
+                <div className="board-row">
+                  <div className="board-bar board-bar-left">
+                    <div className="board-bar-content">
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">Show</h3>
+                        <p>Eshan Mehdiratta</p>
+                        <p>Anika Koppula</p>
+                      </div>
+                      <img src={show} alt="Show" className="board-bar-image" />
+                    </div>
                   </div>
-                  <div className="carousel-slide">
-                    <img src={logistics} alt="Logistics" />
-                    <p className="legend">Diya Patel, Aditya Yadav, Ashley Kurian</p>
+                  <div className="board-bar board-bar-right">
+                    <div className="board-bar-content">
+                      <img src={logistics} alt="Logistics" className="board-bar-image" />
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">Logistics</h3>
+                        <p>Diya Patel</p>
+                        <p>Aditya Yadav</p>
+                        <p>Ashley Kurian</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="carousel-slide">
-                    <img src={hospitality} alt="Hospitality" />
-                    <p className="legend">Amolika Kondapalli, Anirudh Radhakrishnan</p>
+                </div>
+                {/* Row 4 */}
+                <div className="board-row">
+                  <div className="board-bar board-bar-left">
+                    <div className="board-bar-content">
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">Hospitality</h3>
+                        <p>Amolika Kondapalli</p>
+                        <p>Anirudh Radhakrishnan</p>
+                      </div>
+                      <img src={hospitality} alt="Hospitality" className="board-bar-image" />
+                    </div>
                   </div>
-                  <div className="carousel-slide">
-                    <img src={pr} alt="Public Relations" />
-                    <p className="legend">Nishita Appana, Tanisha Khurana</p>
+                  <div className="board-bar board-bar-right">
+                    <div className="board-bar-content">
+                      <img src={pr} alt="Public Relations" className="board-bar-image" />
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">PR</h3>
+                        <p>Nishita Appana</p>
+                        <p>Tanisha Khurana</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="carousel-slide">
-                    <img src={creative} alt="Creative" />
-                    <p className="legend">Akshitha Venkataraman, Srimukta Pisupati, Sameeksha Mehrotra</p>
+                </div>
+                {/* Row 5 - Creative centered */}
+                <div className="board-row board-row-single">
+                  <div className="board-bar board-bar-left">
+                    <div className="board-bar-content">
+                      <div className="board-bar-names">
+                        <h3 className="board-bar-title">Creative</h3>
+                        <p>Sameeksha Mehrotra</p>
+                        <p>Abhiram Iruku</p>
+                        <p>Akshitha Venkataraman</p>
+                      </div>
+                      <img src={creative} alt="Creative" className="board-bar-image" />
+                    </div>
                   </div>
-                </Carousel>
+                </div>
               </div>
             </section>
           </>
